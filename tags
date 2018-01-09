@@ -1,0 +1,1581 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIO_COUNT_KEY	include/xpt_internal_types.h	36;"	d
+AIO_KEY	include/xpt_internal_types.h	69;"	d
+AR	Makefile	/^AR	= $(CROSS_PREFIX)ar$/;"	m
+ARCH	Makefile	/^ARCH		?= linux$/;"	m
+ARRAY_SIZE	test/spi_fram.c	36;"	d	file:
+AR_V	Makefile	/^AR_V	= $(AR)$/;"	m
+BUS_KEY	include/xpt_internal_types.h	61;"	d
+CC	Makefile	/^CC	= $(CROSS_PREFIX)gcc$/;"	m
+CC_V	Makefile	/^CC_V	= $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS	:= -g -Wall -Werror -fPIC$/;"	m
+CHAR	src/glob/glob.c	115;"	d	file:
+CHIP_ID_KEY	include/xpt_internal_types.h	48;"	d
+CLOCK_KEY	include/xpt_internal_types.h	53;"	d
+CMD	test/spi_fram.c	38;"	d	file:
+CMSPAR	src/uart/uart.c	14;"	d	file:
+COM0	include/uart.h	/^     COM0 = 0,$/;"	e	enum:__anon21
+COM1	include/uart.h	/^     COM1,$/;"	e	enum:__anon21
+COM2	include/uart.h	/^     COM2,$/;"	e	enum:__anon21
+COM3	include/uart.h	/^     COM3,$/;"	e	enum:__anon21
+COM4	include/uart.h	/^     COM4,$/;"	e	enum:__anon21
+COM5	include/uart.h	/^     COM5,$/;"	e	enum:__anon21
+COM6	include/uart.h	/^     COM6,$/;"	e	enum:__anon21
+COM7	include/uart.h	/^     COM7,$/;"	e	enum:__anon21
+COMMA	src/glob/glob.c	92;"	d	file:
+COMMBUS_H	include/commbus.h	2;"	d
+COM_MAX	include/uart.h	/^     COM_MAX$/;"	e	enum:__anon21
+CONFIG_SPI_BUS	test/spi_fram.c	28;"	d	file:
+CONFIG_SPI_CS	test/spi_fram.c	29;"	d	file:
+CP_V	Makefile	/^CP_V	= $(CP)$/;"	m
+CS_KEY	include/xpt_internal_types.h	56;"	d
+CXX	Makefile	/^CXX	= $(CROSS_PREFIX)g++$/;"	m
+CXX_V	Makefile	/^CXX_V	= $(CXX)$/;"	m
+Char	src/glob/glob.c	/^typedef char Char;$/;"	t	file:
+Char	src/glob/glob.c	/^typedef unsigned short Char;$/;"	t	file:
+DATBITS_6	include/uart.h	/^     DATBITS_6 = 0,$/;"	e	enum:__anon19
+DATBITS_7	include/uart.h	/^     DATBITS_7,$/;"	e	enum:__anon19
+DATBITS_8	include/uart.h	/^     DATBITS_8$/;"	e	enum:__anon19
+DEBUG	include/commbus.h	8;"	d
+DEFAULT_BITS	src/aio/aio.c	8;"	d	file:
+DEFAULT_KEY	include/xpt_internal_types.h	44;"	d
+DOLLAR	src/glob/glob.c	76;"	d	file:
+DOT	src/glob/glob.c	77;"	d	file:
+EOS	src/glob/glob.c	78;"	d	file:
+FALSE	tools/xpt-uart.c	11;"	d	file:
+FIRMATA_ANALOG_MAPPING_QUERY	include/firmata/firmata.h	50;"	d
+FIRMATA_ANALOG_MAPPING_RESPONSE	include/firmata/firmata.h	51;"	d
+FIRMATA_ANALOG_MESSAGE	include/firmata/firmata.h	54;"	d
+FIRMATA_ANALOG_MESSAGE	include/firmata/firmata.h	55;"	d
+FIRMATA_CAPABILITY_QUERY	include/firmata/firmata.h	48;"	d
+FIRMATA_CAPABILITY_RESPONSE	include/firmata/firmata.h	49;"	d
+FIRMATA_DIGITAL_MESSAGE	include/firmata/firmata.h	53;"	d
+FIRMATA_END_SYSEX	include/firmata/firmata.h	43;"	d
+FIRMATA_END_SYSEX	include/firmata/firmata.h	74;"	d
+FIRMATA_I2C_CONFIG	include/firmata/firmata.h	59;"	d
+FIRMATA_I2C_REPLY	include/firmata/firmata.h	60;"	d
+FIRMATA_I2C_REQUEST	include/firmata/firmata.h	61;"	d
+FIRMATA_MSG_LEN	include/firmata/firmata.h	84;"	d
+FIRMATA_PIN_MODE_QUERY	include/firmata/firmata.h	44;"	d
+FIRMATA_PIN_MODE_RESPONSE	include/firmata/firmata.h	45;"	d
+FIRMATA_PIN_STATE_QUERY	include/firmata/firmata.h	46;"	d
+FIRMATA_PIN_STATE_RESPONSE	include/firmata/firmata.h	47;"	d
+FIRMATA_REPORT_ANALOG	include/firmata/firmata.h	56;"	d
+FIRMATA_REPORT_DIGITAL	include/firmata/firmata.h	57;"	d
+FIRMATA_REPORT_FIRMWARE	include/firmata/firmata.h	80;"	d
+FIRMATA_REPORT_VERSION	include/firmata/firmata.h	70;"	d
+FIRMATA_SERVO_CONFIG	include/firmata/firmata.h	78;"	d
+FIRMATA_SET_PIN_MODE	include/firmata/firmata.h	68;"	d
+FIRMATA_START_SYSEX	include/firmata/firmata.h	42;"	d
+FIRMATA_START_SYSEX	include/firmata/firmata.h	73;"	d
+FIRMATA_STRING	include/firmata/firmata.h	79;"	d
+FIRMATA_SYSEX_NON_REALTIME	include/firmata/firmata.h	81;"	d
+FIRMATA_SYSEX_REALTIME	include/firmata/firmata.h	82;"	d
+FIRMATA_SYSTEM_RESET	include/firmata/firmata.h	71;"	d
+GLOB_ABEND	src/glob/glob.h	99;"	d
+GLOB_ABORTED	src/glob/glob.h	82;"	d
+GLOB_ALTDIRFUNC	src/glob/glob.h	87;"	d
+GLOB_APPEND	src/glob/glob.h	73;"	d
+GLOB_BRACE	src/glob/glob.h	88;"	d
+GLOB_DOOFFS	src/glob/glob.h	74;"	d
+GLOB_ERR	src/glob/glob.h	75;"	d
+GLOB_LIMIT	src/glob/glob.h	91;"	d
+GLOB_LIMIT_BRACE	src/glob/glob.c	60;"	d	file:
+GLOB_LIMIT_PATH	src/glob/glob.c	59;"	d	file:
+GLOB_LIMIT_READDIR	src/glob/glob.c	58;"	d	file:
+GLOB_LIMIT_STAT	src/glob/glob.c	57;"	d	file:
+GLOB_LIMIT_STRING	src/glob/glob.c	56;"	d	file:
+GLOB_MAGCHAR	src/glob/glob.h	89;"	d
+GLOB_MARK	src/glob/glob.h	76;"	d
+GLOB_NOCHECK	src/glob/glob.h	77;"	d
+GLOB_NOESCAPE	src/glob/glob.h	79;"	d
+GLOB_NOMAGIC	src/glob/glob.h	90;"	d
+GLOB_NOMATCH	src/glob/glob.h	83;"	d
+GLOB_NOSORT	src/glob/glob.h	78;"	d
+GLOB_NOSPACE	src/glob/glob.h	81;"	d
+GLOB_NOSYS	src/glob/glob.h	84;"	d
+GLOB_NO_DOTDIRS	src/glob/glob.h	95;"	d
+GLOB_PERIOD	src/glob/glob.h	94;"	d
+GLOB_QUOTE	src/glob/glob.h	97;"	d
+GLOB_STAR	src/glob/glob.h	96;"	d
+GLOB_TILDE	src/glob/glob.h	92;"	d
+GPIO_COUNT_KEY	include/xpt_internal_types.h	35;"	d
+GPIO_KEY	include/xpt_internal_types.h	64;"	d
+GROVEPI_ADDRESS	include/grovepi/grovepi.h	10;"	d
+GROVEPI_AIO_READ	include/grovepi/grovepi.h	14;"	d
+GROVEPI_FIRMWARE	include/grovepi/grovepi.h	17;"	d
+GROVEPI_GPIO_MODE	include/grovepi/grovepi.h	16;"	d
+GROVEPI_GPIO_READ	include/grovepi/grovepi.h	12;"	d
+GROVEPI_GPIO_WRITE	include/grovepi/grovepi.h	13;"	d
+GROVEPI_PWM	include/grovepi/grovepi.h	15;"	d
+GROVEPI_REGISTER	include/grovepi/grovepi.h	11;"	d
+HAVE_PTHREAD_CANCEL	include/xpt_internal_types.h	15;"	d
+HIGH	include/firmata/firmata.h	40;"	d
+I2C_BUS0	include/i2c.h	/^     I2C_BUS0 = 0,$/;"	e	enum:__anon23
+I2C_BUS1	include/i2c.h	/^     I2C_BUS1,$/;"	e	enum:__anon23
+I2C_BUS2	include/i2c.h	/^     I2C_BUS2,$/;"	e	enum:__anon23
+I2C_BUS_MAX	include/i2c.h	/^     I2C_BUS_MAX$/;"	e	enum:__anon23
+I2C_CONTINUOUSREAD	include/firmata/firmata.h	65;"	d
+I2C_COUNT_KEY	include/xpt_internal_types.h	38;"	d
+I2C_FUNCS	include/linux/i2c-dev.h	24;"	d
+I2C_FUNC_10BIT_ADDR	include/linux/i2c-dev.h	79;"	d
+I2C_FUNC_I2C	include/linux/i2c-dev.h	78;"	d
+I2C_FUNC_PROTOCOL_MANGLING	include/linux/i2c-dev.h	80;"	d
+I2C_FUNC_SMBUS_BLOCK_PROC_CALL	include/linux/i2c-dev.h	82;"	d
+I2C_FUNC_SMBUS_PEC	include/linux/i2c-dev.h	81;"	d
+I2C_FUNC_SMBUS_PROC_CALL	include/linux/i2c-dev.h	90;"	d
+I2C_FUNC_SMBUS_QUICK	include/linux/i2c-dev.h	83;"	d
+I2C_FUNC_SMBUS_READ_BLOCK_DATA	include/linux/i2c-dev.h	91;"	d
+I2C_FUNC_SMBUS_READ_BYTE	include/linux/i2c-dev.h	84;"	d
+I2C_FUNC_SMBUS_READ_BYTE_DATA	include/linux/i2c-dev.h	86;"	d
+I2C_FUNC_SMBUS_READ_I2C_BLOCK	include/linux/i2c-dev.h	93;"	d
+I2C_FUNC_SMBUS_READ_WORD_DATA	include/linux/i2c-dev.h	88;"	d
+I2C_FUNC_SMBUS_WRITE_BLOCK_DATA	include/linux/i2c-dev.h	92;"	d
+I2C_FUNC_SMBUS_WRITE_BYTE	include/linux/i2c-dev.h	85;"	d
+I2C_FUNC_SMBUS_WRITE_BYTE_DATA	include/linux/i2c-dev.h	87;"	d
+I2C_FUNC_SMBUS_WRITE_I2C_BLOCK	include/linux/i2c-dev.h	94;"	d
+I2C_FUNC_SMBUS_WRITE_WORD_DATA	include/linux/i2c-dev.h	89;"	d
+I2C_H	include/i2c.h	2;"	d
+I2C_KEY	include/xpt_internal_types.h	67;"	d
+I2C_MODE_READ	include/firmata/firmata.h	64;"	d
+I2C_MODE_WRITE	include/firmata/firmata.h	63;"	d
+I2C_M_IGNORE_NAK	include/linux/i2c-dev.h	58;"	d
+I2C_M_NOSTART	include/linux/i2c-dev.h	56;"	d
+I2C_M_NO_RD_ACK	include/linux/i2c-dev.h	59;"	d
+I2C_M_RD	include/linux/i2c-dev.h	55;"	d
+I2C_M_REV_DIR_ADDR	include/linux/i2c-dev.h	57;"	d
+I2C_M_TEN	include/linux/i2c-dev.h	54;"	d
+I2C_NOCMD	include/linux/i2c-dev.h	64;"	d
+I2C_PEC	include/linux/i2c-dev.h	26;"	d
+I2C_RDRW_IOCTL_MAX_MSGS	include/linux/i2c-dev.h	49;"	d
+I2C_RDWR	include/linux/i2c-dev.h	25;"	d
+I2C_RETRIES	include/linux/i2c-dev.h	18;"	d
+I2C_SLAVE	include/linux/i2c-dev.h	20;"	d
+I2C_SLAVE_FORCE	include/linux/i2c-dev.h	21;"	d
+I2C_SMBUS	include/linux/i2c-dev.h	28;"	d
+I2C_SMBUS_BLOCK_DATA	include/linux/i2c-dev.h	73;"	d
+I2C_SMBUS_BLOCK_MAX	include/linux/i2c-dev.h	41;"	d
+I2C_SMBUS_BLOCK_PROC_CALL	include/linux/i2c-dev.h	75;"	d
+I2C_SMBUS_BYTE	include/linux/i2c-dev.h	69;"	d
+I2C_SMBUS_BYTE_DATA	include/linux/i2c-dev.h	70;"	d
+I2C_SMBUS_I2C_BLOCK_BROKEN	include/linux/i2c-dev.h	74;"	d
+I2C_SMBUS_I2C_BLOCK_DATA	include/linux/i2c-dev.h	76;"	d
+I2C_SMBUS_I2C_BLOCK_MAX	include/linux/i2c-dev.h	42;"	d
+I2C_SMBUS_PROC_CALL	include/linux/i2c-dev.h	72;"	d
+I2C_SMBUS_QUICK	include/linux/i2c-dev.h	68;"	d
+I2C_SMBUS_READ	include/linux/i2c-dev.h	65;"	d
+I2C_SMBUS_WORD_DATA	include/linux/i2c-dev.h	71;"	d
+I2C_SMBUS_WRITE	include/linux/i2c-dev.h	66;"	d
+I2C_STOP_READING	include/firmata/firmata.h	66;"	d
+I2C_TENBIT	include/linux/i2c-dev.h	23;"	d
+I2C_TIMEOUT	include/linux/i2c-dev.h	19;"	d
+IIO_ACCEL	api/xpt/iio_kernel_headers.h	/^        IIO_ACCEL,$/;"	e	enum:iio_chan_type
+IIO_ACTIVITY	api/xpt/iio_kernel_headers.h	/^        IIO_ACTIVITY,$/;"	e	enum:iio_chan_type
+IIO_ALTVOLTAGE	api/xpt/iio_kernel_headers.h	/^        IIO_ALTVOLTAGE,$/;"	e	enum:iio_chan_type
+IIO_ANGL	api/xpt/iio_kernel_headers.h	/^        IIO_ANGL,$/;"	e	enum:iio_chan_type
+IIO_ANGL_VEL	api/xpt/iio_kernel_headers.h	/^        IIO_ANGL_VEL,$/;"	e	enum:iio_chan_type
+IIO_CAPACITANCE	api/xpt/iio_kernel_headers.h	/^        IIO_CAPACITANCE,$/;"	e	enum:iio_chan_type
+IIO_CCT	api/xpt/iio_kernel_headers.h	/^        IIO_CCT,$/;"	e	enum:iio_chan_type
+IIO_CONFIGFS_TRIGGER	src/iio/iio.c	18;"	d	file:
+IIO_CURRENT	api/xpt/iio_kernel_headers.h	/^        IIO_CURRENT,$/;"	e	enum:iio_chan_type
+IIO_DEVICE	src/iio/iio.c	13;"	d	file:
+IIO_DEVICE_WILDCARD	src/xpt.c	45;"	d	file:
+IIO_DISTANCE	api/xpt/iio_kernel_headers.h	/^        IIO_DISTANCE,$/;"	e	enum:iio_chan_type
+IIO_ENERGY	api/xpt/iio_kernel_headers.h	/^        IIO_ENERGY,$/;"	e	enum:iio_chan_type
+IIO_EVENTS	src/iio/iio.c	17;"	d	file:
+IIO_EVENT_CODE_EXTRACT_CHAN	api/xpt/iio_kernel_headers.h	112;"	d
+IIO_EVENT_CODE_EXTRACT_CHAN2	api/xpt/iio_kernel_headers.h	113;"	d
+IIO_EVENT_CODE_EXTRACT_CHAN_TYPE	api/xpt/iio_kernel_headers.h	108;"	d
+IIO_EVENT_CODE_EXTRACT_DIFF	api/xpt/iio_kernel_headers.h	116;"	d
+IIO_EVENT_CODE_EXTRACT_DIR	api/xpt/iio_kernel_headers.h	106;"	d
+IIO_EVENT_CODE_EXTRACT_MODIFIER	api/xpt/iio_kernel_headers.h	115;"	d
+IIO_EVENT_CODE_EXTRACT_TYPE	api/xpt/iio_kernel_headers.h	104;"	d
+IIO_EV_DIR_EITHER	api/xpt/iio_kernel_headers.h	/^        IIO_EV_DIR_EITHER,$/;"	e	enum:iio_event_direction
+IIO_EV_DIR_FALLING	api/xpt/iio_kernel_headers.h	/^        IIO_EV_DIR_FALLING,$/;"	e	enum:iio_event_direction
+IIO_EV_DIR_NONE	api/xpt/iio_kernel_headers.h	/^        IIO_EV_DIR_NONE,$/;"	e	enum:iio_event_direction
+IIO_EV_DIR_RISING	api/xpt/iio_kernel_headers.h	/^        IIO_EV_DIR_RISING,$/;"	e	enum:iio_event_direction
+IIO_EV_TYPE_CHANGE	api/xpt/iio_kernel_headers.h	/^        IIO_EV_TYPE_CHANGE,$/;"	e	enum:iio_event_type
+IIO_EV_TYPE_MAG	api/xpt/iio_kernel_headers.h	/^        IIO_EV_TYPE_MAG,$/;"	e	enum:iio_event_type
+IIO_EV_TYPE_MAG_ADAPTIVE	api/xpt/iio_kernel_headers.h	/^        IIO_EV_TYPE_MAG_ADAPTIVE,$/;"	e	enum:iio_event_type
+IIO_EV_TYPE_ROC	api/xpt/iio_kernel_headers.h	/^        IIO_EV_TYPE_ROC,$/;"	e	enum:iio_event_type
+IIO_EV_TYPE_THRESH	api/xpt/iio_kernel_headers.h	/^        IIO_EV_TYPE_THRESH,$/;"	e	enum:iio_event_type
+IIO_EV_TYPE_THRESH_ADAPTIVE	api/xpt/iio_kernel_headers.h	/^        IIO_EV_TYPE_THRESH_ADAPTIVE,$/;"	e	enum:iio_event_type
+IIO_GET_EVENT_FD_IOCTL	api/xpt/iio_kernel_headers.h	102;"	d
+IIO_HUMIDITYRELATIVE	api/xpt/iio_kernel_headers.h	/^        IIO_HUMIDITYRELATIVE,$/;"	e	enum:iio_chan_type
+IIO_INCLI	api/xpt/iio_kernel_headers.h	/^        IIO_INCLI,$/;"	e	enum:iio_chan_type
+IIO_INTENSITY	api/xpt/iio_kernel_headers.h	/^        IIO_INTENSITY,$/;"	e	enum:iio_chan_type
+IIO_LIGHT	api/xpt/iio_kernel_headers.h	/^        IIO_LIGHT,$/;"	e	enum:iio_chan_type
+IIO_MAGN	api/xpt/iio_kernel_headers.h	/^        IIO_MAGN,$/;"	e	enum:iio_chan_type
+IIO_MOD_JOGGING	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_JOGGING,$/;"	e	enum:iio_modifier
+IIO_MOD_LIGHT_BLUE	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_LIGHT_BLUE,$/;"	e	enum:iio_modifier
+IIO_MOD_LIGHT_BOTH	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_LIGHT_BOTH,$/;"	e	enum:iio_modifier
+IIO_MOD_LIGHT_CLEAR	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_LIGHT_CLEAR,$/;"	e	enum:iio_modifier
+IIO_MOD_LIGHT_GREEN	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_LIGHT_GREEN,$/;"	e	enum:iio_modifier
+IIO_MOD_LIGHT_IR	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_LIGHT_IR,$/;"	e	enum:iio_modifier
+IIO_MOD_LIGHT_RED	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_LIGHT_RED,$/;"	e	enum:iio_modifier
+IIO_MOD_NORTH_MAGN	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_NORTH_MAGN,$/;"	e	enum:iio_modifier
+IIO_MOD_NORTH_MAGN_TILT_COMP	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_NORTH_MAGN_TILT_COMP,$/;"	e	enum:iio_modifier
+IIO_MOD_NORTH_TRUE	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_NORTH_TRUE,$/;"	e	enum:iio_modifier
+IIO_MOD_NORTH_TRUE_TILT_COMP	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_NORTH_TRUE_TILT_COMP,$/;"	e	enum:iio_modifier
+IIO_MOD_QUATERNION	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_QUATERNION,$/;"	e	enum:iio_modifier
+IIO_MOD_ROOT_SUM_SQUARED_X_Y	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_ROOT_SUM_SQUARED_X_Y,$/;"	e	enum:iio_modifier
+IIO_MOD_ROOT_SUM_SQUARED_X_Y_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_ROOT_SUM_SQUARED_X_Y_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_RUNNING	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_RUNNING,$/;"	e	enum:iio_modifier
+IIO_MOD_STILL	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_STILL,$/;"	e	enum:iio_modifier
+IIO_MOD_SUM_SQUARED_X_Y_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_SUM_SQUARED_X_Y_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_TEMP_AMBIENT	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_TEMP_AMBIENT,$/;"	e	enum:iio_modifier
+IIO_MOD_TEMP_OBJECT	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_TEMP_OBJECT,$/;"	e	enum:iio_modifier
+IIO_MOD_WALKING	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_WALKING,$/;"	e	enum:iio_modifier
+IIO_MOD_X	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X,$/;"	e	enum:iio_modifier
+IIO_MOD_X_AND_Y	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X_AND_Y,$/;"	e	enum:iio_modifier
+IIO_MOD_X_AND_Y_AND_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X_AND_Y_AND_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_X_AND_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X_AND_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_X_OR_Y	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X_OR_Y,$/;"	e	enum:iio_modifier
+IIO_MOD_X_OR_Y_OR_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X_OR_Y_OR_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_X_OR_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_X_OR_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_Y	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_Y,$/;"	e	enum:iio_modifier
+IIO_MOD_Y_AND_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_Y_AND_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_Y_OR_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_Y_OR_Z,$/;"	e	enum:iio_modifier
+IIO_MOD_Z	api/xpt/iio_kernel_headers.h	/^        IIO_MOD_Z,$/;"	e	enum:iio_modifier
+IIO_NO_MOD	api/xpt/iio_kernel_headers.h	/^        IIO_NO_MOD,$/;"	e	enum:iio_modifier
+IIO_POWER	api/xpt/iio_kernel_headers.h	/^        IIO_POWER,$/;"	e	enum:iio_chan_type
+IIO_PRESSURE	api/xpt/iio_kernel_headers.h	/^        IIO_PRESSURE,$/;"	e	enum:iio_chan_type
+IIO_PROXIMITY	api/xpt/iio_kernel_headers.h	/^        IIO_PROXIMITY,$/;"	e	enum:iio_chan_type
+IIO_ROT	api/xpt/iio_kernel_headers.h	/^        IIO_ROT,$/;"	e	enum:iio_chan_type
+IIO_SCAN_ELEM	src/iio/iio.c	14;"	d	file:
+IIO_SLASH_DEV	src/iio/iio.c	15;"	d	file:
+IIO_STEPS	api/xpt/iio_kernel_headers.h	/^        IIO_STEPS,$/;"	e	enum:iio_chan_type
+IIO_SYSFS_DEVICE	src/iio/iio.c	16;"	d	file:
+IIO_TEMP	api/xpt/iio_kernel_headers.h	/^        IIO_TEMP,$/;"	e	enum:iio_chan_type
+IIO_TIMESTAMP	api/xpt/iio_kernel_headers.h	/^        IIO_TIMESTAMP,$/;"	e	enum:iio_chan_type
+IIO_VELOCITY	api/xpt/iio_kernel_headers.h	/^        IIO_VELOCITY,$/;"	e	enum:iio_chan_type
+IIO_VOLTAGE	api/xpt/iio_kernel_headers.h	/^        IIO_VOLTAGE,$/;"	e	enum:iio_chan_type
+INDEX_KEY	include/xpt_internal_types.h	32;"	d
+INVALID_KEY	include/xpt_internal_types.h	45;"	d
+IO_KEY	include/xpt_internal_types.h	59;"	d
+IS_FUNC_DEFINED	include/xpt_adv_func.h	8;"	d
+JNI_REQUIRED_VERSION	include/java/mraajni.h	35;"	d
+LABEL_KEY	include/xpt_internal_types.h	43;"	d
+LBRACE	src/glob/glob.c	89;"	d	file:
+LBRACKET	src/glob/glob.c	79;"	d	file:
+LD	Makefile	/^LD	= $(CROSS_PREFIX)ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS	:= $($(ARCH)_LDFLAGS)$/;"	m
+LD_V	Makefile	/^LD_V	= $(LD)$/;"	m
+LIBAIO_O	Makefile	/^LIBAIO_O	= src\/aio\/aio.o$/;"	m
+LIBCOMMBUS_ERROR_ACCESS	include/commbus.h	/^     LIBCOMMBUS_ERROR_ACCESS,$/;"	e	enum:__anon1
+LIBCOMMBUS_ERROR_MALLOC	include/commbus.h	/^     LIBCOMMBUS_ERROR_MALLOC$/;"	e	enum:__anon1
+LIBCOMMBUS_ERROR_NOT_SUPPORT	include/commbus.h	/^     LIBCOMMBUS_ERROR_NOT_SUPPORT,$/;"	e	enum:__anon1
+LIBCOMMBUS_ERROR_NO_DEVICE	include/commbus.h	/^     LIBCOMMBUS_ERROR_NO_DEVICE,$/;"	e	enum:__anon1
+LIBCOMMBUS_SUCCESS	include/commbus.h	/^     LIBCOMMBUS_SUCCESS = 0,$/;"	e	enum:__anon1
+LIBGPIO_O	Makefile	/^LIBGPIO_O   = src\/gpio\/gpio.o $/;"	m
+LIBI2C_O	Makefile	/^LIBI2C_O	= src\/i2c\/i2c.o$/;"	m
+LIBIIO_O	Makefile	/^LIBIIO_O	= src\/iio\/iio.o$/;"	m
+LIBMIPS_O	Makefile	/^LIBMIPS_O	= src\/mips\/mediatek.o \\$/;"	m
+LIBNAME	Makefile	/^LIBNAME		= libcommbus$/;"	m
+LIBPWM_O	Makefile	/^LIBPWM_O	= src\/pwm\/pwm.o$/;"	m
+LIBSPI_O	Makefile	/^LIBSPI_O	= src\/spi\/spi.o$/;"	m
+LIBUARTOW_O	Makefile	/^LIBUARTOW_O	= src\/uart_ow\/uart_ow.o$/;"	m
+LIBUART_O	Makefile	/^LIBUART_O	= src\/uart\/uart.o$/;"	m
+LOW	include/firmata/firmata.h	39;"	d
+LastDeviceFlag	api/xpt/uart_ow.h	/^    xpt_boolean_t LastDeviceFlag;$/;"	m	struct:_xpt_uart_ow
+LastDiscrepancy	api/xpt/uart_ow.h	/^    int LastDiscrepancy;$/;"	m	struct:_xpt_uart_ow
+LastFamilyDiscrepancy	api/xpt/uart_ow.h	/^    int LastFamilyDiscrepancy;$/;"	m	struct:_xpt_uart_ow
+MAX_AIO_COUNT	include/xpt_internal_types.h	21;"	d
+MAX_I2C_BUS_COUNT	include/xpt_internal_types.h	19;"	d
+MAX_ID_LEN	test/spi_fram.c	34;"	d	file:
+MAX_NAME_LEN	test/spi_fram.c	33;"	d	file:
+MAX_PWM_COUNT	include/xpt_internal_types.h	23;"	d
+MAX_SIZE	src/gpio/gpio.c	16;"	d	file:
+MAX_SIZE	src/iio/iio.c	12;"	d	file:
+MAX_SIZE	src/led/led.c	15;"	d	file:
+MAX_SIZE	src/pwm/pwm.c	11;"	d	file:
+MAX_SIZE	src/spi/spi.c	24;"	d	file:
+MAX_SPI_BUS_COUNT	include/xpt_internal_types.h	20;"	d
+MAX_UART_COUNT	include/xpt_internal_types.h	22;"	d
+META	src/glob/glob.c	116;"	d	file:
+MISO_KEY	include/xpt_internal_types.h	54;"	d
+MMAP_PATH	src/mips/mediatek.c	12;"	d	file:
+MOCK_I2C_DEV_ADDR	include/mock/mock_board_i2c.h	10;"	d
+MOCK_I2C_DEV_DATA_INIT_BYTE	include/mock/mock_board_i2c.h	14;"	d
+MOCK_I2C_DEV_DATA_LEN	include/mock/mock_board_i2c.h	12;"	d
+MOCK_SPI_DEFAULT_BIT_PER_WORD	include/mock/mock_board_spi.h	12;"	d
+MOCK_SPI_DEFAULT_FREQ	include/mock/mock_board_spi.h	9;"	d
+MOCK_SPI_DEFAULT_LSBMODE	include/mock/mock_board_spi.h	11;"	d
+MOCK_SPI_DEFAULT_MODE	include/mock/mock_board_spi.h	10;"	d
+MOCK_SPI_REPLY_DATA_MODIFIER_BYTE	include/mock/mock_board_spi.h	14;"	d
+MOCK_SPI_REPLY_DATA_MODIFIER_WORD	include/mock/mock_board_spi.h	15;"	d
+MOCK_UART_DATA_BYTE	include/mock/mock_board_uart.h	34;"	d
+MODE_ANALOG	include/firmata/firmata.h	33;"	d
+MODE_I2C	include/firmata/firmata.h	37;"	d
+MODE_INPUT	include/firmata/firmata.h	31;"	d
+MODE_OUTPUT	include/firmata/firmata.h	32;"	d
+MODE_PWM	include/firmata/firmata.h	34;"	d
+MODE_SERVO	include/firmata/firmata.h	35;"	d
+MODE_SHIFT	include/firmata/firmata.h	36;"	d
+MOSI_KEY	include/xpt_internal_types.h	55;"	d
+MT7628_BLOCK_SIZE	src/mips/mediatek.c	14;"	d	file:
+MT7628_GPIOMODE_BASE	src/mips/mediatek.c	13;"	d	file:
+MT7628_GPIO_CLEAR	src/mips/mediatek.c	18;"	d	file:
+MT7628_GPIO_CTRL	src/mips/mediatek.c	15;"	d	file:
+MT7628_GPIO_DATA	src/mips/mediatek.c	16;"	d	file:
+MT7628_GPIO_SET	src/mips/mediatek.c	17;"	d	file:
+MUX_EPHY	src/mips/mediatek.c	/^    MUX_EPHY,$/;"	e	enum:__anon28	file:
+MUX_GPIO	src/mips/mediatek.c	/^    MUX_GPIO = 0,$/;"	e	enum:__anon28	file:
+MUX_I2C	src/mips/mediatek.c	/^    MUX_I2C,$/;"	e	enum:__anon28	file:
+MUX_I2S	src/mips/mediatek.c	/^    MUX_I2S,$/;"	e	enum:__anon28	file:
+MUX_PWM0	src/mips/mediatek.c	/^    MUX_PWM0,$/;"	e	enum:__anon28	file:
+MUX_PWM1	src/mips/mediatek.c	/^    MUX_PWM1,$/;"	e	enum:__anon28	file:
+MUX_SPI_CS1	src/mips/mediatek.c	/^    MUX_SPI_CS1,$/;"	e	enum:__anon28	file:
+MUX_SPI_S	src/mips/mediatek.c	/^    MUX_SPI_S,$/;"	e	enum:__anon28	file:
+MUX_UART0	src/mips/mediatek.c	/^    MUX_UART0,$/;"	e	enum:__anon28	file:
+MUX_UART1	src/mips/mediatek.c	/^    MUX_UART1,$/;"	e	enum:__anon28	file:
+MUX_UART2	src/mips/mediatek.c	/^    MUX_UART2,$/;"	e	enum:__anon28	file:
+MUX_WLED	src/mips/mediatek.c	/^    MUX_WLED,$/;"	e	enum:__anon28	file:
+M_ALL	src/glob/glob.c	117;"	d	file:
+M_ASCII	src/glob/glob.c	108;"	d	file:
+M_ASCII	src/glob/glob.c	99;"	d	file:
+M_END	src/glob/glob.c	118;"	d	file:
+M_MASK	src/glob/glob.c	107;"	d	file:
+M_MASK	src/glob/glob.c	98;"	d	file:
+M_NOT	src/glob/glob.c	119;"	d	file:
+M_ONE	src/glob/glob.c	120;"	d	file:
+M_PROTECT	src/glob/glob.c	106;"	d	file:
+M_PROTECT	src/glob/glob.c	97;"	d	file:
+M_QUOTE	src/glob/glob.c	105;"	d	file:
+M_QUOTE	src/glob/glob.c	96;"	d	file:
+M_RNG	src/glob/glob.c	121;"	d	file:
+M_SET	src/glob/glob.c	122;"	d	file:
+NAME_KEY	include/xpt_internal_types.h	33;"	d
+NOT	src/glob/glob.c	80;"	d	file:
+NO_GETPW_R	src/glob/glob.c	53;"	d	file:
+OBJS	Makefile	/^OBJS	:= $(OBJS_LIB) $(OBJS_UNIT_TEST)$/;"	m
+OBJS_LIB	Makefile	/^OBJS_LIB	= $(LIBI2C_O) \\$/;"	m
+PAR_EVEN	include/uart.h	/^     PAR_EVEN$/;"	e	enum:__anon18
+PAR_NONE	include/uart.h	/^     PAR_NONE = 0,$/;"	e	enum:__anon18
+PAR_ODD	include/uart.h	/^     PAR_ODD,$/;"	e	enum:__anon18
+PINCMD_SET_DIRECTION	include/xpt_internal_types.h	/^    PINCMD_SET_DIRECTION = 2,   \/\/ set a pin's direction (value like XPT_GPIO_OUT, XPT_GPIO_OUT_HIGH...)$/;"	e	enum:__anon4
+PINCMD_SET_IN_VALUE	include/xpt_internal_types.h	/^    PINCMD_SET_IN_VALUE = 3,    \/\/ set input direction and value$/;"	e	enum:__anon4
+PINCMD_SET_MODE	include/xpt_internal_types.h	/^    PINCMD_SET_MODE = 5,        \/\/ set pin's mode$/;"	e	enum:__anon4
+PINCMD_SET_OUT_VALUE	include/xpt_internal_types.h	/^    PINCMD_SET_OUT_VALUE = 4,   \/\/ set output direction and value$/;"	e	enum:__anon4
+PINCMD_SET_VALUE	include/xpt_internal_types.h	/^    PINCMD_SET_VALUE = 1,       \/\/ set a pin's value$/;"	e	enum:__anon4
+PINCMD_SKIP	include/xpt_internal_types.h	/^    PINCMD_SKIP = 6             \/\/ just skip this command, do not apply pin and value$/;"	e	enum:__anon4
+PINCMD_UNDEFINED	include/xpt_internal_types.h	/^    PINCMD_UNDEFINED = 0,       \/\/ do not modify, default command for zero value, used for backward compatibility with boards where pincmd is not defined (it will be deleted later)$/;"	e	enum:__anon4
+PIN_COUNT_KEY	include/xpt_internal_types.h	34;"	d
+PIN_KEY	include/xpt_internal_types.h	58;"	d
+PLATFORM_KEY	include/xpt_internal_types.h	60;"	d
+POLL_TIMEOUT	src/gpio/gpio.c	17;"	d	file:
+PWMDEFAULT_KEY	include/xpt_internal_types.h	40;"	d
+PWMMAX_KEY	include/xpt_internal_types.h	41;"	d
+PWMMIN_KEY	include/xpt_internal_types.h	42;"	d
+PWM_KEY	include/xpt_internal_types.h	68;"	d
+QUESTION	src/glob/glob.c	81;"	d	file:
+QUOTE	src/glob/glob.c	82;"	d	file:
+RANGE	src/glob/glob.c	83;"	d	file:
+RAW_PIN_KEY	include/xpt_internal_types.h	49;"	d
+RBRACE	src/glob/glob.c	90;"	d	file:
+RBRACKET	src/glob/glob.c	84;"	d	file:
+RM_V	Makefile	/^RM_V	= $(RM)$/;"	m
+ROM_NO	api/xpt/uart_ow.h	/^    unsigned char ROM_NO[XPT_UART_OW_ROMCODE_SIZE]; \/* 8 byte (64b) rom code *\/$/;"	m	struct:_xpt_uart_ow
+RXPIN_KEY	include/xpt_internal_types.h	50;"	d
+SCLPIN_KEY	include/xpt_internal_types.h	46;"	d
+SDAPIN_KEY	include/xpt_internal_types.h	47;"	d
+SEP	src/glob/glob.c	85;"	d	file:
+SHARED	Makefile	/^SHARED	:= -shared$/;"	m
+SLASH	src/glob/glob.c	91;"	d	file:
+SOCKET_H	include/socket.h	2;"	d
+SPI_BUS0	include/spi.h	/^     SPI_BUS0 = 0,$/;"	e	enum:__anon24
+SPI_BUS1	include/spi.h	/^     SPI_BUS1,$/;"	e	enum:__anon24
+SPI_BUS2	include/spi.h	/^     SPI_BUS2,$/;"	e	enum:__anon24
+SPI_BUS_MAX	include/spi.h	/^     SPI_BUS_MAX$/;"	e	enum:__anon24
+SPI_COUNT_KEY	include/xpt_internal_types.h	37;"	d
+SPI_CPHA	include/linux/spi_kernel_headers.h	13;"	d
+SPI_CPOL	include/linux/spi_kernel_headers.h	14;"	d
+SPI_CS0	include/spi.h	/^     SPI_CS0 = 0,$/;"	e	enum:__anon25
+SPI_CS1	include/spi.h	/^     SPI_CS1,$/;"	e	enum:__anon25
+SPI_CS_MAX	include/spi.h	/^     SPI_CS_MAX$/;"	e	enum:__anon25
+SPI_H	include/spi.h	2;"	d
+SPI_IOC_MAGIC	include/linux/spi_kernel_headers.h	21;"	d
+SPI_IOC_MESSAGE	include/linux/spi_kernel_headers.h	41;"	d
+SPI_IOC_RD_BITS_PER_WORD	include/linux/spi_kernel_headers.h	49;"	d
+SPI_IOC_RD_LSB_FIRST	include/linux/spi_kernel_headers.h	46;"	d
+SPI_IOC_RD_MAX_SPEED_HZ	include/linux/spi_kernel_headers.h	52;"	d
+SPI_IOC_RD_MODE	include/linux/spi_kernel_headers.h	43;"	d
+SPI_IOC_RD_MODE32	include/linux/spi_kernel_headers.h	55;"	d
+SPI_IOC_WR_BITS_PER_WORD	include/linux/spi_kernel_headers.h	50;"	d
+SPI_IOC_WR_LSB_FIRST	include/linux/spi_kernel_headers.h	47;"	d
+SPI_IOC_WR_MAX_SPEED_HZ	include/linux/spi_kernel_headers.h	53;"	d
+SPI_IOC_WR_MODE	include/linux/spi_kernel_headers.h	44;"	d
+SPI_IOC_WR_MODE32	include/linux/spi_kernel_headers.h	56;"	d
+SPI_KEY	include/xpt_internal_types.h	65;"	d
+SPI_MAX_LENGTH	src/spi/spi.c	25;"	d	file:
+SPI_MODE0	include/spi.h	/^     SPI_MODE0 = 0,$/;"	e	enum:__anon26
+SPI_MODE1	include/spi.h	/^     SPI_MODE1,$/;"	e	enum:__anon26
+SPI_MODE2	include/spi.h	/^     SPI_MODE2,$/;"	e	enum:__anon26
+SPI_MODE3	include/spi.h	/^     SPI_MODE3$/;"	e	enum:__anon26
+SPI_MODE_0	include/linux/spi_kernel_headers.h	16;"	d
+SPI_MODE_1	include/linux/spi_kernel_headers.h	17;"	d
+SPI_MODE_2	include/linux/spi_kernel_headers.h	18;"	d
+SPI_MODE_3	include/linux/spi_kernel_headers.h	19;"	d
+SPI_MSGSIZE	include/linux/spi_kernel_headers.h	38;"	d
+SS_KEY	include/xpt_internal_types.h	57;"	d
+STAR	src/glob/glob.c	86;"	d	file:
+STOPBITS_1	include/uart.h	/^     STOPBITS_1 = 0,$/;"	e	enum:__anon20
+STOPBITS_2	include/uart.h	/^     STOPBITS_2$/;"	e	enum:__anon20
+SYSFS_CLASS_GPIO	src/gpio/gpio.c	15;"	d	file:
+SYSFS_CLASS_LED	src/led/led.c	14;"	d	file:
+SYSFS_PWM	src/pwm/pwm.c	12;"	d	file:
+TEST_HOST	test/socket_resp.c	28;"	d	file:
+TEST_HOST	test/socket_send.c	34;"	d	file:
+TEST_LEN	test/socket_resp.c	30;"	d	file:
+TEST_LEN	test/socket_send.c	36;"	d	file:
+TEST_LEN	test/uart_resp.c	27;"	d	file:
+TEST_LEN	test/uart_send.c	34;"	d	file:
+TEST_PORT	test/socket_resp.c	29;"	d	file:
+TEST_PORT	test/socket_send.c	35;"	d	file:
+TGT	Makefile	/^TGT	:= $(TGT_LIB_A)$/;"	m
+TGT_LIB_A	Makefile	/^TGT_LIB_A	= $(LIBNAME).a$/;"	m
+TGT_LIB_H	Makefile	/^TGT_LIB_H	= $/;"	m
+TGT_LIB_SO	Makefile	/^TGT_LIB_SO	= $(LIBNAME).so$/;"	m
+TGT_LIB_SO_VER	Makefile	/^TGT_LIB_SO_VER	= $(TGT_LIB_SO).${VER}$/;"	m
+TILDE	src/glob/glob.c	87;"	d	file:
+TRUE	tools/xpt-uart.c	12;"	d	file:
+TXPIN_KEY	include/xpt_internal_types.h	51;"	d
+TYPE_TCP	include/socket.h	/^	TYPE_TCP,$/;"	e	enum:__anon2
+TYPE_UDP	include/socket.h	/^	TYPE_UDP,$/;"	e	enum:__anon2
+TYPE_UDS	include/socket.h	/^	TYPE_UDS$/;"	e	enum:__anon2
+UART_COUNT_KEY	include/xpt_internal_types.h	39;"	d
+UART_H	include/uart.h	2;"	d
+UART_KEY	include/xpt_internal_types.h	66;"	d
+UART_PATH_KEY	include/xpt_internal_types.h	52;"	d
+UART_PATH_SIZE	src/peripheralman/peripheralman.c	10;"	d	file:
+UNDERSCORE	src/glob/glob.c	88;"	d	file:
+XFER_BUF_LEN	test/spi_fram.c	31;"	d	file:
+XPT_96BOARDS	api/xpt/types.h	/^    XPT_96BOARDS = 9,              \/**< Linaro 96boards *\/$/;"	e	enum:__anon32
+XPT_ANDROID_PERIPHERALMANAGER	api/xpt/types.h	/^    XPT_ANDROID_PERIPHERALMANAGER = 95, \/**< Android Things peripheral manager platform *\/$/;"	e	enum:__anon32
+XPT_BANANA	api/xpt/types.h	/^    XPT_BANANA = 7,                \/**< Allwinner A20 based Banana Pi and Banana Pro *\/$/;"	e	enum:__anon32
+XPT_BEAGLEBONE	api/xpt/types.h	/^    XPT_BEAGLEBONE = 6,            \/**< The different BeagleBone Black Modes B\/C *\/$/;"	e	enum:__anon32
+XPT_DE_NANO_SOC	api/xpt/types.h	/^    XPT_DE_NANO_SOC = 15,          \/**< Terasic DE-Nano-SoC Board *\/$/;"	e	enum:__anon32
+XPT_ERROR_FEATURE_NOT_IMPLEMENTED	api/xpt/types.h	/^    XPT_ERROR_FEATURE_NOT_IMPLEMENTED = 1,       \/**< Feature TODO *\/$/;"	e	enum:__anon36
+XPT_ERROR_FEATURE_NOT_SUPPORTED	api/xpt/types.h	/^    XPT_ERROR_FEATURE_NOT_SUPPORTED = 2,         \/**< Feature not supported by HW *\/$/;"	e	enum:__anon36
+XPT_ERROR_INVALID_HANDLE	api/xpt/types.h	/^    XPT_ERROR_INVALID_HANDLE = 5,                \/**< Handle invalid *\/$/;"	e	enum:__anon36
+XPT_ERROR_INVALID_PARAMETER	api/xpt/types.h	/^    XPT_ERROR_INVALID_PARAMETER = 4,             \/**< Parameter invalid *\/$/;"	e	enum:__anon36
+XPT_ERROR_INVALID_PLATFORM	api/xpt/types.h	/^    XPT_ERROR_INVALID_PLATFORM = 10,             \/**< Platform not recognised *\/$/;"	e	enum:__anon36
+XPT_ERROR_INVALID_QUEUE_TYPE	api/xpt/types.h	/^    XPT_ERROR_INVALID_QUEUE_TYPE = 8,            \/**< Queue type incorrect *\/$/;"	e	enum:__anon36
+XPT_ERROR_INVALID_RESOURCE	api/xpt/types.h	/^    XPT_ERROR_INVALID_RESOURCE = 7,              \/**< Resource invalid *\/$/;"	e	enum:__anon36
+XPT_ERROR_INVALID_VERBOSITY_LEVEL	api/xpt/types.h	/^    XPT_ERROR_INVALID_VERBOSITY_LEVEL = 3,       \/**< Verbosity level wrong *\/$/;"	e	enum:__anon36
+XPT_ERROR_NO_DATA_AVAILABLE	api/xpt/types.h	/^    XPT_ERROR_NO_DATA_AVAILABLE = 9,             \/**< No data available *\/$/;"	e	enum:__anon36
+XPT_ERROR_NO_RESOURCES	api/xpt/types.h	/^    XPT_ERROR_NO_RESOURCES = 6,                  \/**< No resource of that type avail *\/$/;"	e	enum:__anon36
+XPT_ERROR_PLATFORM_NOT_INITIALISED	api/xpt/types.h	/^    XPT_ERROR_PLATFORM_NOT_INITIALISED = 11,     \/**< Board information not initialised *\/$/;"	e	enum:__anon36
+XPT_ERROR_UART_OW_DATA_ERROR	api/xpt/types.h	/^    XPT_ERROR_UART_OW_DATA_ERROR = 14,           \/**< UART OW Data\/Bus error detected *\/$/;"	e	enum:__anon36
+XPT_ERROR_UART_OW_NO_DEVICES	api/xpt/types.h	/^    XPT_ERROR_UART_OW_NO_DEVICES = 13,           \/**< UART OW No devices detected *\/$/;"	e	enum:__anon36
+XPT_ERROR_UART_OW_SHORTED	api/xpt/types.h	/^    XPT_ERROR_UART_OW_SHORTED = 12,              \/**< UART OW Short Circuit Detected*\/$/;"	e	enum:__anon36
+XPT_ERROR_UNSPECIFIED	api/xpt/types.h	/^    XPT_ERROR_UNSPECIFIED = 99 \/**< Unknown Error *\/$/;"	e	enum:__anon36
+XPT_FTDI_FT4222	api/xpt/types.h	/^    XPT_FTDI_FT4222 = 256,         \/**< FTDI FT4222 USB to i2c bridge *\/$/;"	e	enum:__anon32
+XPT_GENERIC_FIRMATA	api/xpt/types.h	/^    XPT_GENERIC_FIRMATA = 1280,    \/**< Firmata uart platform\/bridge *\/$/;"	e	enum:__anon32
+XPT_GPIO_ACTIVE_HIGH	api/xpt/gpio.h	/^    XPT_GPIO_ACTIVE_HIGH = 0, \/**< Resistive High *\/$/;"	e	enum:__anon43
+XPT_GPIO_ACTIVE_LOW	api/xpt/gpio.h	/^    XPT_GPIO_ACTIVE_LOW = 1,  \/**< Resistive Low *\/$/;"	e	enum:__anon43
+XPT_GPIO_EDGE_BOTH	api/xpt/gpio.h	/^    XPT_GPIO_EDGE_BOTH = 1,   \/**< Interrupt on rising & falling *\/$/;"	e	enum:__anon42
+XPT_GPIO_EDGE_FALLING	api/xpt/gpio.h	/^    XPT_GPIO_EDGE_FALLING = 3 \/**< Interrupt on falling only *\/$/;"	e	enum:__anon42
+XPT_GPIO_EDGE_NONE	api/xpt/gpio.h	/^    XPT_GPIO_EDGE_NONE = 0,   \/**< No interrupt on Gpio *\/$/;"	e	enum:__anon42
+XPT_GPIO_EDGE_RISING	api/xpt/gpio.h	/^    XPT_GPIO_EDGE_RISING = 2, \/**< Interrupt on rising only *\/$/;"	e	enum:__anon42
+XPT_GPIO_HIZ	api/xpt/gpio.h	/^    XPT_GPIO_HIZ = 3       \/**< High Z State *\/$/;"	e	enum:__anon40
+XPT_GPIO_IN	api/xpt/gpio.h	/^    XPT_GPIO_IN = 1,       \/**< Input *\/$/;"	e	enum:__anon41
+XPT_GPIO_OPEN_DRAIN	api/xpt/gpio.h	/^    XPT_GPIO_OPEN_DRAIN = 0, \/**< Open Drain Configuration *\/$/;"	e	enum:__anon44
+XPT_GPIO_OUT	api/xpt/gpio.h	/^    XPT_GPIO_OUT = 0,      \/**< Output. A Mode can also be set *\/$/;"	e	enum:__anon41
+XPT_GPIO_OUT_HIGH	api/xpt/gpio.h	/^    XPT_GPIO_OUT_HIGH = 2, \/**< Output. Init High *\/$/;"	e	enum:__anon41
+XPT_GPIO_OUT_LOW	api/xpt/gpio.h	/^    XPT_GPIO_OUT_LOW = 3   \/**< Output. Init Low *\/$/;"	e	enum:__anon41
+XPT_GPIO_PULLDOWN	api/xpt/gpio.h	/^    XPT_GPIO_PULLDOWN = 2, \/**< Resistive Low *\/$/;"	e	enum:__anon40
+XPT_GPIO_PULLUP	api/xpt/gpio.h	/^    XPT_GPIO_PULLUP = 1,   \/**< Resistive High *\/$/;"	e	enum:__anon40
+XPT_GPIO_PUSH_PULL	api/xpt/gpio.h	/^    XPT_GPIO_PUSH_PULL = 1,  \/**< Push Pull Configuration *\/$/;"	e	enum:__anon44
+XPT_GPIO_STRONG	api/xpt/gpio.h	/^    XPT_GPIO_STRONG = 0,   \/**< Default. Strong high and low *\/$/;"	e	enum:__anon40
+XPT_GROVEPI	api/xpt/types.h	/^    XPT_GROVEPI = 1024,            \/**< GrovePi shield i2c bridge *\/$/;"	e	enum:__anon32
+XPT_I2C_FAST	api/xpt/types.h	/^    XPT_I2C_FAST = 1, \/**< up to 400Khz *\/$/;"	e	enum:__anon38
+XPT_I2C_HIGH	api/xpt/types.h	/^    XPT_I2C_HIGH = 2  \/**< up to 3.4Mhz *\/$/;"	e	enum:__anon38
+XPT_I2C_STD	api/xpt/types.h	/^    XPT_I2C_STD = 0,  \/**< up to 100Khz *\/$/;"	e	enum:__anon38
+XPT_INTEL_CHERRYHILLS	api/xpt/types.h	/^    XPT_INTEL_CHERRYHILLS = 11,    \/**< The Intel Braswell Cherryhills *\/$/;"	e	enum:__anon32
+XPT_INTEL_DE3815	api/xpt/types.h	/^    XPT_INTEL_DE3815 = 3,          \/**< The Intel DE3815 Baytrail NUC *\/$/;"	e	enum:__anon32
+XPT_INTEL_EDISON_FAB_C	api/xpt/types.h	/^    XPT_INTEL_EDISON_FAB_C = 2,    \/**< The Intel Edison (FAB C) *\/$/;"	e	enum:__anon32
+XPT_INTEL_EDISON_GP109	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP109 = 10,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP110	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP110 = 23,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP111	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP111 = 0,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP114	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP114 = 24,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP115	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP115 = 11,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP12	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP12 = 20,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP128	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP128 = 13,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP129	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP129 = 25,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP13	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP13 = 14,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP130	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP130 = 26,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP131	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP131 = 35,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP134	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP134 = 44,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP135	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP135 = 4,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP14	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP14 = 36,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP15	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP15 = 48,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP165	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP165 = 15,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP182	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP182 = 0,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP183	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP183 = 21,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP19	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP19 = 19,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP20	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP20 = 7,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP27	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP27 = 6,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP28	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP28 = 8,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP40	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP40 = 37,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP41	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP41 = 51,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP42	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP42 = 50,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP43	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP43 = 38,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP44	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP44 = 31,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP45	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP45 = 45,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP46	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP46 = 32,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP47	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP47 = 46,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP48	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP48 = 33,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP49	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP49 = 47,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP77	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP77 = 39,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP78	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP78 = 52,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP79	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP79 = 53,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP80	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP80 = 54,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP81	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP81 = 55$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP82	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP82 = 40,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP83	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP83 = 41,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_GP84	api/xpt/types.h	/^    XPT_INTEL_EDISON_GP84 = 49,$/;"	e	enum:__anon34
+XPT_INTEL_EDISON_MINIBOARD_J17_1	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_1 = 0,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_10	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_10 = 9,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_11	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_11 = 10,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_12	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_12 = 11,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_14	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_14 = 13,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_5	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_5 = 4,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_7	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_7 = 6,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_8	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_8 = 7,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J17_9	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J17_9 = 8,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_1	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_1 = 14,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_10	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_10 = 23,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_11	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_11 = 24,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_12	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_12 = 25,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_13	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_13 = 26,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_2	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_2 = 15,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_6	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_6 = 19,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_7	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_7 = 20,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J18_8	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J18_8 = 21,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_10	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_10 = 37,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_11	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_11 = 38,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_12	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_12 = 39,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_13	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_13 = 40,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_14	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_14 = 41,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_4	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_4 = 31,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_5	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_5 = 32,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_6	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_6 = 33,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_8	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_8 = 35,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J19_9	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J19_9 = 36,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_10	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_10 = 51,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_11	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_11 = 52,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_12	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_12 = 53,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_13	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_13 = 54,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_14	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_14 = 55$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_3	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_3 = 44,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_4	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_4 = 45,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_5	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_5 = 46,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_6	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_6 = 47,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_7	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_7 = 48,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_8	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_8 = 49,$/;"	e	enum:__anon33
+XPT_INTEL_EDISON_MINIBOARD_J20_9	api/xpt/types.h	/^    XPT_INTEL_EDISON_MINIBOARD_J20_9 = 50,$/;"	e	enum:__anon33
+XPT_INTEL_GALILEO_GEN1	api/xpt/types.h	/^    XPT_INTEL_GALILEO_GEN1 = 0,    \/**< The Generation 1 Galileo platform (RevD) *\/$/;"	e	enum:__anon32
+XPT_INTEL_GALILEO_GEN2	api/xpt/types.h	/^    XPT_INTEL_GALILEO_GEN2 = 1,    \/**< The Generation 2 Galileo platform (RevG\/H) *\/$/;"	e	enum:__anon32
+XPT_INTEL_GT_TUCHUCK	api/xpt/types.h	/^    XPT_INTEL_GT_TUCHUCK = XPT_INTEL_JOULE_EXPANSION, \/\/ deprecated$/;"	e	enum:__anon32
+XPT_INTEL_JOULE_EXPANSION	api/xpt/types.h	/^    XPT_INTEL_JOULE_EXPANSION = 13,\/**< The Intel Joule Expansion Board *\/$/;"	e	enum:__anon32
+XPT_INTEL_MINNOWBOARD_MAX	api/xpt/types.h	/^    XPT_INTEL_MINNOWBOARD_MAX = 4, \/**< The Intel Minnow Board Max *\/$/;"	e	enum:__anon32
+XPT_INTEL_NUC5	api/xpt/types.h	/^    XPT_INTEL_NUC5 = 8,            \/**< The Intel 5th generations Broadwell NUCs *\/$/;"	e	enum:__anon32
+XPT_INTEL_SOFIA_3GR	api/xpt/types.h	/^    XPT_INTEL_SOFIA_3GR = 10,      \/**< The Intel SoFIA 3GR *\/$/;"	e	enum:__anon32
+XPT_IO_SETUP_FAILURE	include/xpt_internal_types.h	28;"	d
+XPT_JSONPLAT_ENV_VAR	include/xpt_internal_types.h	71;"	d
+XPT_JSON_PLATFORM	api/xpt/types.h	/^    XPT_JSON_PLATFORM = 97,        \/**< User initialised platform from json *\/$/;"	e	enum:__anon32
+XPT_MAIN_PLATFORM_OFFSET	api/xpt/common.h	17;"	d
+XPT_MOCK_PINCOUNT	include/mock/mock_board.h	9;"	d
+XPT_MOCK_PLATFORM	api/xpt/types.h	/^    XPT_MOCK_PLATFORM = 96,        \/**< Mock platform, which requires no real hardware *\/$/;"	e	enum:__anon32
+XPT_MTK_LINKIT	api/xpt/types.h	/^    XPT_MTK_LINKIT = 17,           \/**< Mediatek MT7688 based Linkit boards *\/$/;"	e	enum:__anon32
+XPT_MTK_OMEGA2	api/xpt/types.h	/^    XPT_MTK_OMEGA2 = 18,           \/**< MT7688 based Onion Omega2 board *\/$/;"	e	enum:__anon32
+XPT_NO_SUCH_IO	include/xpt_internal_types.h	29;"	d
+XPT_NULL_PLATFORM	api/xpt/types.h	/^    XPT_NULL_PLATFORM = 98,        \/**< Platform with no capabilities that hosts a sub platform  *\/$/;"	e	enum:__anon32
+XPT_PHYBOARD_WEGA	api/xpt/types.h	/^    XPT_PHYBOARD_WEGA = 14,        \/**< The phyBOARD-Wega *\/$/;"	e	enum:__anon32
+XPT_PIN_AIO	api/xpt/types.h	/^    XPT_PIN_AIO = 6,       \/**< Analog in *\/$/;"	e	enum:__anon37
+XPT_PIN_FAST_GPIO	api/xpt/types.h	/^    XPT_PIN_FAST_GPIO = 3, \/**< Faster GPIO *\/$/;"	e	enum:__anon37
+XPT_PIN_GPIO	api/xpt/types.h	/^    XPT_PIN_GPIO = 1,      \/**< General Purpose IO *\/$/;"	e	enum:__anon37
+XPT_PIN_I2C	api/xpt/types.h	/^    XPT_PIN_I2C = 5,       \/**< I2C *\/$/;"	e	enum:__anon37
+XPT_PIN_NAME_SIZE	api/xpt/common.h	9;"	d
+XPT_PIN_PWM	api/xpt/types.h	/^    XPT_PIN_PWM = 2,       \/**< Pulse Width Modulation *\/$/;"	e	enum:__anon37
+XPT_PIN_SPI	api/xpt/types.h	/^    XPT_PIN_SPI = 4,       \/**< SPI *\/$/;"	e	enum:__anon37
+XPT_PIN_UART	api/xpt/types.h	/^    XPT_PIN_UART = 7       \/**< UART *\/$/;"	e	enum:__anon37
+XPT_PIN_VALID	api/xpt/types.h	/^    XPT_PIN_VALID = 0,     \/**< Pin Valid *\/$/;"	e	enum:__anon37
+XPT_PLATFORM_NAME_MAX_SIZE	api/xpt/common.h	7;"	d
+XPT_PLATFORM_NO_INIT	include/xpt_internal_types.h	27;"	d
+XPT_RASPBERRY_PI	api/xpt/types.h	/^    XPT_RASPBERRY_PI = 5,          \/**< The different Raspberry PI Models -like  A,B,A+,B+ *\/$/;"	e	enum:__anon32
+XPT_RASPBERRY_WIRING_PIN0	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN0 = 11,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN1	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN1 = 12,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN10	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN10 = 24,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN11	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN11 = 26,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN12	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN12 = 19,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN13	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN13 = 21,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN14	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN14 = 23,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN15	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN15 = 8,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN16	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN16 = 10,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN17	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN17 = 29, \/\/ RPi B V2$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN18	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN18 = 30, \/\/ RPi B V2$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN19	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN19 = 31, \/\/ RPI B V2$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN2	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN2 = 13,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN20	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN20 = 32, \/\/ RPi B V2$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN21	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN21 = 29,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN22	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN22 = 31,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN23	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN23 = 33,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN24	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN24 = 35,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN25	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN25 = 37,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN26	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN26 = 32,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN27	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN27 = 36,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN28	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN28 = 38,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN29	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN29 = 40$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN3	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN3 = 15,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN4	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN4 = 16,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN5	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN5 = 18,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN6	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN6 = 22,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN7	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN7 = 7,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN8	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN8 = 3,$/;"	e	enum:__anon35
+XPT_RASPBERRY_WIRING_PIN9	api/xpt/types.h	/^    XPT_RASPBERRY_WIRING_PIN9 = 5,$/;"	e	enum:__anon35
+XPT_RETURN_FOR_ERROR	api/xpt/common.h	23;"	d
+XPT_SPI_MODE0	api/xpt/spi.h	/^    XPT_SPI_MODE0 = 0, \/**< CPOL = 0, CPHA = 0, Clock idle low, data is clocked in on rising edge,$/;"	e	enum:__anon45
+XPT_SPI_MODE1	api/xpt/spi.h	/^    XPT_SPI_MODE1 = 1, \/**< CPOL = 0, CPHA = 1, Clock idle low, data is clocked in on falling edge,$/;"	e	enum:__anon45
+XPT_SPI_MODE2	api/xpt/spi.h	/^    XPT_SPI_MODE2 = 2, \/**< CPOL = 1, CPHA = 0, Clock idle low, data is clocked in on falling edge,$/;"	e	enum:__anon45
+XPT_SPI_MODE3	api/xpt/spi.h	/^    XPT_SPI_MODE3 = 3, \/**< CPOL = 1, CPHA = 1, Clock idle low, data is clocked in on rising, edge$/;"	e	enum:__anon45
+XPT_SUB_PLATFORM_BIT_SHIFT	api/xpt/common.h	12;"	d
+XPT_SUB_PLATFORM_MASK	api/xpt/common.h	14;"	d
+XPT_SUB_PLATFORM_OFFSET	api/xpt/common.h	19;"	d
+XPT_SUCCESS	api/xpt/types.h	/^    XPT_SUCCESS = 0,                             \/**< Expected response *\/$/;"	e	enum:__anon36
+XPT_UART_OW_CMD_MATCH_ROM	api/xpt/uart_ow.h	/^    XPT_UART_OW_CMD_MATCH_ROM = 0x55,        \/**< match a specific rom code *\/$/;"	e	enum:__anon29
+XPT_UART_OW_CMD_READ_ROM	api/xpt/uart_ow.h	/^    XPT_UART_OW_CMD_READ_ROM = 0x33,         \/**< read rom, when only one device on bus *\/$/;"	e	enum:__anon29
+XPT_UART_OW_CMD_SEARCH_ROM	api/xpt/uart_ow.h	/^    XPT_UART_OW_CMD_SEARCH_ROM = 0xf0        \/**< search all rom codes *\/$/;"	e	enum:__anon29
+XPT_UART_OW_CMD_SEARCH_ROM_ALARM	api/xpt/uart_ow.h	/^    XPT_UART_OW_CMD_SEARCH_ROM_ALARM = 0xec, \/**< search all roms in alarm state *\/$/;"	e	enum:__anon29
+XPT_UART_OW_CMD_SKIP_ROM	api/xpt/uart_ow.h	/^    XPT_UART_OW_CMD_SKIP_ROM = 0xcc,         \/**< skip match\/search rom *\/$/;"	e	enum:__anon29
+XPT_UART_OW_ROMCODE_SIZE	api/xpt/uart_ow.h	44;"	d
+XPT_UART_PARITY_EVEN	api/xpt/types.h	/^    XPT_UART_PARITY_EVEN = 1,$/;"	e	enum:__anon39
+XPT_UART_PARITY_MARK	api/xpt/types.h	/^    XPT_UART_PARITY_MARK = 3,$/;"	e	enum:__anon39
+XPT_UART_PARITY_NONE	api/xpt/types.h	/^    XPT_UART_PARITY_NONE = 0,$/;"	e	enum:__anon39
+XPT_UART_PARITY_ODD	api/xpt/types.h	/^    XPT_UART_PARITY_ODD = 2,$/;"	e	enum:__anon39
+XPT_UART_PARITY_SPACE	api/xpt/types.h	/^    XPT_UART_PARITY_SPACE = 4$/;"	e	enum:__anon39
+XPT_UNKNOWN_PLATFORM	api/xpt/types.h	/^    XPT_UNKNOWN_PLATFORM = 99      \/**< An unknown platform type, typically will load INTEL_GALILEO_GEN1 *\/$/;"	e	enum:__anon32
+XPT_UP	api/xpt/types.h	/^    XPT_UP = 12,                   \/**< The UP Board *\/$/;"	e	enum:__anon32
+XPT_UP2	api/xpt/types.h	/^    XPT_UP2 = 16,                  \/**< The UP^2 Board *\/$/;"	e	enum:__anon32
+_DIAGASSERT	src/glob/glob.c	73;"	d	file:
+_GLOB_H_	src/glob/glob.h	38;"	d
+_GNU_SOURCE	src/xpt.c	1;"	d	file:
+_LINUX_POSIX_TYPES_H	include/linux/posix_types.h	20;"	d
+_SPI_KERNEL_HEADERS_H	include/linux/spi_kernel_headers.h	9;"	d
+_UAPI_LINUX_COMPILER_H	include/linux/compiler.h	2;"	d
+_UAPI_LINUX_I2C_DEV_H	include/linux/i2c-dev.h	14;"	d
+_UAPI_LINUX_TYPES_H	include/linux/types.h	20;"	d
+_XOPEN_SOURCE	src/xpt.c	3;"	d	file:
+__FD_SETSIZE	include/linux/posix_types.h	21;"	d
+__FD_SETSIZE	include/linux/posix_types.h	23;"	d
+__MUX_MAX	src/mips/mediatek.c	/^    __MUX_MAX,$/;"	e	enum:__anon28	file:
+__USE_LINUX_IOCTL_DEFS	api/xpt/iio_kernel_headers.h	86;"	d
+__USE_LINUX_IOCTL_DEFS	src/i2c/i2c.c	11;"	d	file:
+__USE_LINUX_IOCTL_DEFS	src/iio/iio.c	7;"	d	file:
+__USE_LINUX_IOCTL_DEFS	src/spi/spi.c	4;"	d	file:
+__aligned_be64	include/linux/types.h	39;"	d
+__aligned_le64	include/linux/types.h	40;"	d
+__aligned_u64	include/linux/types.h	37;"	d
+__be16	include/linux/types.h	/^typedef __u16 __bitwise __be16;$/;"	t
+__be32	include/linux/types.h	/^typedef __u32 __bitwise __be32;$/;"	t
+__be64	include/linux/types.h	/^typedef __u64 __bitwise __be64;$/;"	t
+__bitwise	include/linux/types.h	26;"	d
+__bitwise__	include/linux/types.h	25;"	d
+__force	include/linux/compiler.h	16;"	d
+__gl_size_t	src/glob/glob.h	46;"	d
+__gl_stat_t	src/glob/glob.h	49;"	d
+__glob30	src/glob/glob.h	/^    int (*)(const char *, int), glob_t * __restrict)	 __RENAME(__glob30);$/;"	v
+__globfree30	src/glob/glob.h	/^void	globfree(glob_t *)				 __RENAME(__globfree30);$/;"	v
+__kernel_fd_set	include/linux/posix_types.h	/^} __kernel_fd_set;$/;"	t	typeref:struct:__anon16
+__kernel_key_t	include/linux/posix_types.h	/^typedef int __kernel_key_t;$/;"	t
+__kernel_mqd_t	include/linux/posix_types.h	/^typedef int __kernel_mqd_t;$/;"	t
+__kernel_sighandler_t	include/linux/posix_types.h	/^typedef void (*__kernel_sighandler_t)(int);$/;"	t
+__le16	include/linux/types.h	/^typedef __u16 __bitwise __le16;$/;"	t
+__le32	include/linux/types.h	/^typedef __u32 __bitwise __le32;$/;"	t
+__le64	include/linux/types.h	/^typedef __u64 __bitwise __le64;$/;"	t
+__sum16	include/linux/types.h	/^typedef __u16 __bitwise __sum16;$/;"	t
+__user	include/linux/compiler.h	15;"	d
+__wsum	include/linux/types.h	/^typedef __u32 __bitwise __wsum;$/;"	t
+_aio	include/xpt_internal_types.h	/^struct _aio {$/;"	s
+_board_t	include/xpt_internal_types.h	/^typedef struct _board_t {$/;"	s
+_firmata	include/xpt_internal_types.h	/^struct _firmata {$/;"	s
+_gpio	include/xpt_internal_types.h	/^struct _gpio {$/;"	s
+_i2c	include/xpt_internal_types.h	/^struct _i2c {$/;"	s
+_iio	include/xpt_internal_types.h	/^struct _iio {$/;"	s
+_led	include/xpt_internal_types.h	/^struct _led {$/;"	s
+_ow_first	src/uart_ow/uart_ow.c	/^static xpt_boolean_t _ow_first(xpt_uart_ow_context dev)$/;"	f	file:
+_ow_next	src/uart_ow/uart_ow.c	/^static xpt_boolean_t _ow_next(xpt_uart_ow_context dev)$/;"	f	file:
+_ow_read_byte	src/uart_ow/uart_ow.c	/^static xpt_result_t _ow_read_byte(xpt_uart_ow_context dev, uint8_t *ch)$/;"	f	file:
+_ow_search	src/uart_ow/uart_ow.c	/^static xpt_boolean_t _ow_search(xpt_uart_ow_context dev)$/;"	f	file:
+_ow_set_speed	src/uart_ow/uart_ow.c	/^static xpt_result_t _ow_set_speed(xpt_uart_ow_context dev, xpt_boolean_t speed)$/;"	f	file:
+_ow_write_byte	src/uart_ow/uart_ow.c	/^static int _ow_write_byte(xpt_uart_ow_context dev, const char ch)$/;"	f	file:
+_pwm	include/xpt_internal_types.h	/^struct _pwm {$/;"	s
+_spi	include/xpt_internal_types.h	/^struct _spi {$/;"	s
+_uart	include/xpt_internal_types.h	/^struct _uart {$/;"	s
+_xpt_uart_ow	api/xpt/uart_ow.h	/^typedef struct _xpt_uart_ow {$/;"	s
+adc_in_fp	include/xpt_internal_types.h	/^    int adc_in_fp; \/**< File Pointer to raw sysfs *\/$/;"	m	struct:_aio
+adc_raw	include/xpt_internal_types.h	/^    unsigned int adc_raw; \/**< ADC raw bit value *\/$/;"	m	struct:_board_t
+adc_supported	include/xpt_internal_types.h	/^    unsigned int adc_supported; \/**< ADC supported bit value *\/$/;"	m	struct:_board_t
+added	include/xpt_internal_types.h	/^    xpt_boolean_t added; \/**< boolean to set if responses already set in devs array *\/$/;"	m	struct:_firmata
+addr	include/linux/i2c-dev.h	/^ __u16 addr;$/;"	m	struct:i2c_msg
+addr	include/socket.h	/^	struct sockaddr_in addr;$/;"	m	struct:sock_info_t	typeref:struct:sock_info_t::sockaddr_in
+addr	include/xpt_internal_types.h	/^    int addr; \/**< the address of the i2c slave *\/$/;"	m	struct:_i2c
+adv_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* adv_func;    \/**< Pointer to advanced function disptach table *\/$/;"	m	struct:_board_t
+advance_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* advance_func; \/**< override function table *\/$/;"	m	struct:_aio
+advance_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* advance_func; \/**< override function table *\/$/;"	m	struct:_gpio
+advance_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* advance_func; \/**< override function table *\/$/;"	m	struct:_i2c
+advance_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* advance_func; \/**< override function table *\/$/;"	m	struct:_pwm
+advance_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* advance_func; \/**< override function table *\/$/;"	m	struct:_spi
+advance_func	include/xpt_internal_types.h	/^    xpt_adv_func_t* advance_func; \/**< override function table *\/$/;"	m	struct:_uart
+aio	include/xpt_internal_types.h	/^    xpt_boolean_t aio:1;       \/**< Is the pin analog input capable *\/$/;"	m	struct:__anon3
+aio	include/xpt_internal_types.h	/^    xpt_pin_t aio;  \/**< Anaglog Pin *\/$/;"	m	struct:__anon9
+aio_close_replace	include/xpt_adv_func.h	/^    xpt_result_t (*aio_close_replace) (xpt_aio_context dev);$/;"	m	struct:__anon22
+aio_count	include/xpt_internal_types.h	/^    int aio_count;  \/**< Analog side Count *\/$/;"	m	struct:_board_t
+aio_dev	include/xpt_internal_types.h	/^    xpt_aio_dev_t aio_dev[MAX_AIO_COUNT]; \/**<Array of AIOs *\/$/;"	m	struct:_board_t
+aio_get_valid_fp	include/xpt_adv_func.h	/^    xpt_result_t (*aio_get_valid_fp) (xpt_aio_context dev);$/;"	m	struct:__anon22
+aio_get_valid_fp	src/aio/aio.c	/^aio_get_valid_fp(xpt_aio_context dev)$/;"	f	file:
+aio_init_internal_replace	include/xpt_adv_func.h	/^    xpt_result_t (*aio_init_internal_replace) (xpt_aio_context dev, int pin);$/;"	m	struct:__anon22
+aio_init_post	include/xpt_adv_func.h	/^    xpt_result_t (*aio_init_post) (xpt_aio_context dev);$/;"	m	struct:__anon22
+aio_init_pre	include/xpt_adv_func.h	/^    xpt_result_t (*aio_init_pre) (unsigned int aio);$/;"	m	struct:__anon22
+aio_non_seq	include/xpt_internal_types.h	/^    unsigned int aio_non_seq; \/**< Are AIO pins non sequential? Usually 0. *\/$/;"	m	struct:_board_t
+aio_read_replace	include/xpt_adv_func.h	/^    int (*aio_read_replace) (xpt_aio_context dev);$/;"	m	struct:__anon22
+analog_channel	include/firmata/firmata.h	/^    uint8_t analog_channel;$/;"	m	struct:s_pin
+bgpio	include/xpt_internal_types.h	/^    AGpio *bgpio;$/;"	m	struct:_gpio
+bi2c	include/xpt_internal_types.h	/^    AI2cDevice *bi2c;$/;"	m	struct:_i2c
+bit_pos	include/xpt_internal_types.h	/^    unsigned int bit_pos; \/** Position of value bit *\/$/;"	m	struct:__anon8
+bits_per_word	include/linux/spi_kernel_headers.h	/^        __u8            bits_per_word;$/;"	m	struct:spi_ioc_transfer
+bits_used	api/xpt/iio.h	/^    unsigned int bits_used;$/;"	m	struct:__anon30
+block	include/linux/i2c-dev.h	/^ __u8 block[I2C_SMBUS_BLOCK_MAX + 2];$/;"	m	union:i2c_smbus_data
+block	src/i2c/i2c.c	/^    uint8_t block[I2C_SMBUS_BLOCK_MAX + 2];$/;"	m	union:i2c_smbus_data_union	file:
+bpw	include/xpt_internal_types.h	/^    unsigned int bpw;   \/**< Bits per word *\/$/;"	m	struct:_spi
+bpwm	include/xpt_internal_types.h	/^    APwm *bpwm;$/;"	m	struct:_pwm
+bright_fd	include/xpt_internal_types.h	/^    int bright_fd; \/**< brightness file descriptor *\/$/;"	m	struct:_led
+bspi	include/xpt_internal_types.h	/^    ASpiDevice *bspi;$/;"	m	struct:_spi
+buart	include/xpt_internal_types.h	/^    struct AUartDevice *buart;$/;"	m	struct:_uart	typeref:struct:_uart::AUartDevice
+buf	include/linux/i2c-dev.h	/^ char *buf;$/;"	m	struct:i2c_msg
+bus_id	include/xpt_internal_types.h	/^    int bus_id; \/**< ID as exposed in the system *\/$/;"	m	struct:__anon10
+bus_id	include/xpt_internal_types.h	/^    unsigned int bus_id; \/**< The Bus ID as exposed to the system. *\/$/;"	m	struct:__anon11
+bus_name	include/xpt_internal_types.h	/^    char bus_name[256];$/;"	m	struct:_i2c
+busnum	include/xpt_internal_types.h	/^    int busnum; \/**< the bus number of the \/dev\/i2c-* device *\/$/;"	m	struct:_i2c
+byte	include/linux/i2c-dev.h	/^ __u8 byte;$/;"	m	union:i2c_smbus_data
+byte	src/i2c/i2c.c	/^    uint8_t byte;        \/\/\/< data byte$/;"	m	union:i2c_smbus_data_union	file:
+bytes	api/xpt/iio.h	/^    unsigned int bytes;$/;"	m	struct:__anon30
+capabilities	include/xpt_internal_types.h	/^    xpt_pincapabilities_t capabilities; \/**< Pin Capabiliites *\/$/;"	m	struct:__anon9
+chan_num	include/xpt_internal_types.h	/^    int chan_num;$/;"	m	struct:_iio
+channel	include/xpt_internal_types.h	/^    unsigned int channel; \/**< the channel as on board and ADC module *\/$/;"	m	struct:_aio
+channels	include/xpt_internal_types.h	/^    xpt_iio_channel* channels;$/;"	m	struct:_iio
+check_pattern	test/socket_resp.c	/^void check_pattern(unsigned char *buf, unsigned char pattern, int len)$/;"	f
+check_pattern	test/socket_send.c	/^int check_pattern(unsigned char *buf, unsigned char pattern, int len)$/;"	f
+check_pattern	test/uart_resp.c	/^void check_pattern(unsigned char *buf, unsigned char pattern, int len)$/;"	f
+check_pattern	test/uart_send.c	/^int check_pattern(unsigned char *buf, unsigned char pattern, int len)$/;"	f
+chipid	include/xpt_internal_types.h	/^    int chipid; \/**< the chip id, which the pwm resides *\/$/;"	m	struct:_pwm
+client	src/peripheralman/peripheralman.c	/^APeripheralManagerClient *client = NULL;$/;"	v
+clock	include/xpt_internal_types.h	/^    int clock;          \/**< clock to run transactions at *\/$/;"	m	struct:_spi
+cmd	test/spi_fram.c	/^	struct spi_fram_cmd *cmd;$/;"	m	struct:spi_fram_info	typeref:struct:spi_fram_info::spi_fram_cmd	file:
+command	include/linux/i2c-dev.h	/^ __u8 command;$/;"	m	struct:i2c_smbus_ioctl_data
+command	src/i2c/i2c.c	/^    uint8_t command;        \/\/\/< ioctl command$/;"	m	struct:i2c_smbus_ioctl_data_struct	file:
+compare	src/glob/glob.c	/^compare(const void *p, const void *q)$/;"	f	file:
+complex_cap	include/xpt_internal_types.h	/^    xpt_pin_cap_complex_t complex_cap;$/;"	m	struct:__anon7
+complex_pin	include/xpt_internal_types.h	/^    xpt_boolean_t complex_pin:1;$/;"	m	struct:__anon6
+context	tools/xpt-gpio.c	/^    xpt_gpio_context context;$/;"	m	struct:gpio_source	file:
+count	include/xpt_internal_types.h	/^    int count; \/**< total LED count in a platform *\/$/;"	m	struct:_led
+cs	include/xpt_internal_types.h	/^    int cs; \/**< Chip Select, used when the board is a spi slave *\/$/;"	m	struct:__anon11
+cs_change	include/linux/spi_kernel_headers.h	/^        __u8            cs_change;$/;"	m	struct:spi_ioc_transfer
+cts	include/xpt_internal_types.h	/^    int cts; \/**< uart cts *\/$/;"	m	struct:__anon12
+data	include/linux/i2c-dev.h	/^ union i2c_smbus_data __user *data;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:union:i2c_smbus_ioctl_data::__user
+data	src/i2c/i2c.c	/^    i2c_smbus_data_t* data; \/\/\/< data$/;"	m	struct:i2c_smbus_ioctl_data_struct	file:
+datasize	include/xpt_internal_types.h	/^    int datasize;$/;"	m	struct:_iio
+debug_print	include/commbus.h	13;"	d
+debug_print	include/commbus.h	15;"	d
+debug_print	include/commbus.h	21;"	d
+debug_print	include/commbus.h	23;"	d
+def_aio_dev	include/xpt_internal_types.h	/^    unsigned int def_aio_dev; \/**< Position in array of default aio *\/$/;"	m	struct:_board_t
+def_i2c_bus	include/xpt_internal_types.h	/^    unsigned int def_i2c_bus; \/**< Position in array of default i2c bus *\/$/;"	m	struct:_board_t
+def_pwm_dev	include/xpt_internal_types.h	/^    unsigned int def_pwm_dev; \/**< Position in array of default pwm *\/$/;"	m	struct:_board_t
+def_spi_bus	include/xpt_internal_types.h	/^    unsigned int def_spi_bus; \/**< Position in array of defult spi bus *\/$/;"	m	struct:_board_t
+def_uart_dev	include/xpt_internal_types.h	/^    unsigned int def_uart_dev; \/**< Position in array of default uart *\/$/;"	m	struct:_board_t
+delay_usecs	include/linux/spi_kernel_headers.h	/^        __u16           delay_usecs;$/;"	m	struct:spi_ioc_transfer
+dev_count	include/firmata/firmata.h	/^    uint8_t dev_count;$/;"	m	struct:s_firmata
+devfd	include/xpt_internal_types.h	/^    int devfd;          \/**< File descriptor to SPI Device *\/$/;"	m	struct:_spi
+device_path	include/xpt_internal_types.h	/^    char* device_path; \/**< To store "\/dev\/pwm" for example *\/$/;"	m	struct:__anon13
+device_path	include/xpt_internal_types.h	/^    char* device_path; \/**< To store "\/dev\/ttyS1" for example *\/$/;"	m	struct:__anon12
+devs	include/firmata/firmata.h	/^    struct _firmata** devs;$/;"	m	struct:s_firmata	typeref:struct:s_firmata::_firmata
+duty_fp	include/xpt_internal_types.h	/^    int duty_fp; \/**< File pointer to duty file *\/$/;"	m	struct:_pwm
+enabled	api/xpt/iio.h	/^    int enabled;$/;"	m	struct:__anon30
+enabled	api/xpt/iio.h	/^    int enabled;$/;"	m	struct:__anon31
+event_num	include/xpt_internal_types.h	/^    int event_num;$/;"	m	struct:_iio
+events	include/xpt_internal_types.h	/^    xpt_iio_event* events;$/;"	m	struct:_iio
+fast_gpio	include/xpt_internal_types.h	/^    xpt_boolean_t fast_gpio:1; \/**< Is the pin fast gpio capable *\/$/;"	m	struct:__anon3
+fd	include/socket.h	/^	int fd;$/;"	m	struct:sock_info_t
+fd	include/xpt_internal_types.h	/^    int fd; \/**< file descriptor for device. *\/$/;"	m	struct:_uart
+fds_bits	include/linux/posix_types.h	/^ unsigned long fds_bits[__FD_SETSIZE \/ (8 * sizeof(long))];$/;"	m	struct:__anon16
+feature	include/xpt_internal_types.h	/^    uint8_t feature; \/**< the feature *\/$/;"	m	struct:_firmata
+fh	include/xpt_internal_types.h	/^    int fh; \/**< the file handle to the \/dev\/i2c-* device *\/$/;"	m	struct:_i2c
+firmware	include/firmata/firmata.h	/^    char firmware[140];$/;"	m	struct:s_firmata
+flags	include/linux/i2c-dev.h	/^ unsigned short flags;$/;"	m	struct:i2c_msg
+fp	include/xpt_internal_types.h	/^    int fp; \/**< IIO device in \/dev *\/$/;"	m	struct:_iio
+fp_event	include/xpt_internal_types.h	/^    int fp_event;  \/**<  event file descriptor for IIO device *\/$/;"	m	struct:_iio
+fram_info	test/spi_fram.c	/^static struct spi_fram_info fram_info[] = {$/;"	v	typeref:struct:spi_fram_info	file:
+free_resources	src/peripheralman/peripheralman.c	/^free_resources(char ***resources, int count)$/;"	f	file:
+func	src/mips/mediatek.c	/^    char *func[4];$/;"	m	struct:pinmux	file:
+funcs	include/xpt_internal_types.h	/^    unsigned long funcs; \/**< \/dev\/i2c-* device capabilities as per https:\/\/www.kernel.org\/doc\/Documentation\/i2c\/functionality *\/$/;"	m	struct:_i2c
+gVERSION	include/version.h	/^const char* gVERSION;$/;"	v
+gVERSION	src/version.c	/^const char* gVERSION = "v1.8.0-21-g64fe50f";$/;"	v
+gVERSION_SHORT	include/version.h	/^const char* gVERSION_SHORT;$/;"	v
+gVERSION_SHORT	src/version.c	/^const char* gVERSION_SHORT = "1.8.0";$/;"	v
+g_Ctoc	src/glob/glob.c	/^g_Ctoc(const Char *str, char *buf, size_t len)$/;"	f	file:
+g_lstat	src/glob/glob.c	/^g_lstat(Char *fn, __gl_stat_t *sb, glob_t *pglob)$/;"	f	file:
+g_opendir	src/glob/glob.c	/^g_opendir(Char *str, glob_t *pglob)$/;"	f	file:
+g_stat	src/glob/glob.c	/^g_stat(Char *fn, __gl_stat_t *sb, glob_t *pglob)$/;"	f	file:
+g_strchr	src/glob/glob.c	/^g_strchr(const Char *str, int ch)$/;"	f	file:
+gl_closedir	src/glob/glob.h	/^	void (*gl_closedir)(void *);$/;"	m	struct:__anon27
+gl_errfunc	src/glob/glob.h	/^	int (*gl_errfunc)(const char *, int);$/;"	m	struct:__anon27
+gl_flags	src/glob/glob.h	/^	int gl_flags;		\/* Copy of flags parameter to glob. *\/$/;"	m	struct:__anon27
+gl_lstat	src/glob/glob.h	/^	int (*gl_lstat)(const char *, __gl_stat_t *);$/;"	m	struct:__anon27
+gl_matchc	src/glob/glob.h	/^	__gl_size_t gl_matchc;	\/* Count of paths matching pattern. *\/$/;"	m	struct:__anon27
+gl_offs	src/glob/glob.h	/^	__gl_size_t gl_offs;	\/* Reserved at beginning of gl_pathv. *\/$/;"	m	struct:__anon27
+gl_opendir	src/glob/glob.h	/^	void *(*gl_opendir)(const char *);$/;"	m	struct:__anon27
+gl_pathc	src/glob/glob.h	/^	__gl_size_t gl_pathc;	\/* Count of total paths so far. *\/$/;"	m	struct:__anon27
+gl_pathv	src/glob/glob.h	/^	char **gl_pathv;	\/* List of paths matching pattern. *\/$/;"	m	struct:__anon27
+gl_readdir	src/glob/glob.h	/^	struct dirent *(*gl_readdir)(void *);$/;"	m	struct:__anon27	typeref:struct:__anon27::gl_readdir
+gl_stat	src/glob/glob.h	/^	int (*gl_stat)(const char *, __gl_stat_t *);$/;"	m	struct:__anon27
+glob	src/glob/glob.c	/^glob(const char * __restrict pattern, int flags, int (*errfunc)(const char *,$/;"	f
+glob0	src/glob/glob.c	/^glob0(const Char *pattern, glob_t *pglob, struct glob_limit *limit)$/;"	f	file:
+glob1	src/glob/glob.c	/^glob1(Char *pattern, glob_t *pglob, struct glob_limit *limit)$/;"	f	file:
+glob2	src/glob/glob.c	/^glob2(Char *pathbuf, Char *pathend, Char *pathlim, const Char *pattern,$/;"	f	file:
+glob3	src/glob/glob.c	/^glob3(Char *pathbuf, Char *pathend, Char *pathlim, const Char *pattern,$/;"	f	file:
+glob_limit	src/glob/glob.c	/^struct glob_limit {$/;"	s	file:
+glob_pattern_p	src/glob/glob.c	/^glob_pattern_p(const char *pattern, int quote)$/;"	f
+glob_t	src/glob/glob.h	/^} glob_t;$/;"	t	typeref:struct:__anon27
+globexp1	src/glob/glob.c	/^globexp1(const Char *pattern, glob_t *pglob, struct glob_limit *limit)$/;"	f	file:
+globexp2	src/glob/glob.c	/^globexp2(const Char *ptr, const Char *pattern, glob_t *pglob, int *rv,$/;"	f	file:
+globextend	src/glob/glob.c	/^globextend(const Char *path, glob_t *pglob, struct glob_limit *limit)$/;"	f	file:
+globfree	src/glob/glob.c	/^globfree(glob_t *pglob)$/;"	f
+globtilde	src/glob/glob.c	/^globtilde(const Char *pattern, Char *patbuf, size_t patsize, glob_t *pglob)$/;"	f	file:
+gpio	include/xpt_internal_types.h	/^    xpt_boolean_t gpio:1;      \/**< Is the pin gpio capable *\/$/;"	m	struct:__anon3
+gpio	include/xpt_internal_types.h	/^    xpt_pin_t gpio; \/** GPio context containing none mmap info *\/$/;"	m	struct:__anon8
+gpio	include/xpt_internal_types.h	/^    xpt_pin_t gpio; \/**< GPIO structure *\/$/;"	m	struct:__anon9
+gpio_close_pre	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_close_pre) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_close_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_close_replace) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_count	include/xpt_internal_types.h	/^    int gpio_count; \/**< GPIO Count *\/$/;"	m	struct:_board_t
+gpio_dir_post	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_dir_post) (xpt_gpio_context dev, xpt_gpio_dir_t dir);$/;"	m	struct:__anon22
+gpio_dir_pre	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_dir_pre) (xpt_gpio_context dev, xpt_gpio_dir_t dir);$/;"	m	struct:__anon22
+gpio_dir_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_dir_replace) (xpt_gpio_context dev, xpt_gpio_dir_t dir);$/;"	m	struct:__anon22
+gpio_edge_mode_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_edge_mode_replace) (xpt_gpio_context dev, xpt_gpio_edge_t mode);$/;"	m	struct:__anon22
+gpio_get	tools/xpt-gpio.c	/^gpio_get(int pin, int* level, xpt_boolean_t raw)$/;"	f
+gpio_init_internal_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_init_internal_replace) (xpt_gpio_context dev, int pin);$/;"	m	struct:__anon22
+gpio_init_post	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_init_post) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_init_pre	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_init_pre) (int pin);$/;"	m	struct:__anon22
+gpio_interrupt_handler_init_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_interrupt_handler_init_replace) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_isr_exit_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_isr_exit_replace) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_isr_handler	tools/xpt-gpio.c	/^gpio_isr_handler(void* args)$/;"	f
+gpio_isr_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_isr_replace) (xpt_gpio_context dev, xpt_gpio_edge_t mode, void (*fptr)(void*), void* args);$/;"	m	struct:__anon22
+gpio_isr_start	tools/xpt-gpio.c	/^gpio_isr_start(struct gpio_source* gpio_info)$/;"	f
+gpio_isr_stop	tools/xpt-gpio.c	/^gpio_isr_stop(struct gpio_source* gpio_info)$/;"	f
+gpio_mmap_fd	src/mips/mediatek.c	/^static int gpio_mmap_fd = 0;$/;"	v	file:
+gpio_mmap_reg	src/mips/mediatek.c	/^static uint8_t *gpio_mmap_reg = NULL;$/;"	v	file:
+gpio_mmap_setup	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_mmap_setup) (xpt_gpio_context dev, xpt_boolean_t en);$/;"	m	struct:__anon22
+gpio_mode_post	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_mode_post) (xpt_gpio_context dev, xpt_gpio_mode_t mode);$/;"	m	struct:__anon22
+gpio_mode_pre	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_mode_pre) (xpt_gpio_context dev, xpt_gpio_mode_t mode);$/;"	m	struct:__anon22
+gpio_mode_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_mode_replace) (xpt_gpio_context dev, xpt_gpio_mode_t mode);$/;"	m	struct:__anon22
+gpio_mux_groups	src/mips/mediatek.c	/^static unsigned char gpio_mux_groups[64];$/;"	v	file:
+gpio_out_driver_mode_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_out_driver_mode_replace) (xpt_gpio_context dev, xpt_gpio_out_driver_mode_t mode);$/;"	m	struct:__anon22
+gpio_read_dir_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_read_dir_replace) (xpt_gpio_context dev, xpt_gpio_dir_t *dir);$/;"	m	struct:__anon22
+gpio_read_replace	include/xpt_adv_func.h	/^    int (*gpio_read_replace) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_set	tools/xpt-gpio.c	/^gpio_set(int pin, int level, xpt_boolean_t raw)$/;"	f
+gpio_source	tools/xpt-gpio.c	/^struct gpio_source {$/;"	s	file:
+gpio_wait_interrupt_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_wait_interrupt_replace) (xpt_gpio_context dev);$/;"	m	struct:__anon22
+gpio_write_post	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_write_post) (xpt_gpio_context dev, int value);$/;"	m	struct:__anon22
+gpio_write_pre	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_write_pre) (xpt_gpio_context dev, int value);$/;"	m	struct:__anon22
+gpio_write_replace	include/xpt_adv_func.h	/^    xpt_result_t (*gpio_write_replace) (xpt_gpio_context dev, int value);$/;"	m	struct:__anon22
+gpios	src/peripheralman/peripheralman.c	/^char **gpios = NULL;$/;"	v
+gpios_count	src/peripheralman/peripheralman.c	/^int gpios_count = 0;$/;"	v
+grovepi_bus	src/grovepi/grovepi.c	/^static xpt_i2c_context grovepi_bus;$/;"	v	file:
+handle	include/xpt_internal_types.h	/^    void *handle; \/**< generic handle for non-standard drivers that don't use file descriptors  *\/$/;"	m	struct:_i2c
+i2c	include/xpt_internal_types.h	/^    xpt_boolean_t i2c:1;       \/**< Is the pin i2c capable *\/$/;"	m	struct:__anon3
+i2c	include/xpt_internal_types.h	/^    xpt_pin_t i2c;  \/**< i2c bus\/pin *\/$/;"	m	struct:__anon9
+i2c_address_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_address_replace) (xpt_i2c_context dev, uint8_t addr);$/;"	m	struct:__anon22
+i2c_bus	include/xpt_internal_types.h	/^    xpt_i2c_bus_t  i2c_bus[MAX_I2C_BUS_COUNT]; \/**< Array of i2c *\/$/;"	m	struct:_board_t
+i2c_bus_count	include/xpt_internal_types.h	/^    int i2c_bus_count; \/**< Usable i2c Count *\/$/;"	m	struct:_board_t
+i2c_busses	src/peripheralman/peripheralman.c	/^char **i2c_busses = NULL;$/;"	v
+i2c_busses_count	src/peripheralman/peripheralman.c	/^int i2c_busses_count = 0;$/;"	v
+i2c_close	lib/i2c_linux.c	/^int i2c_close(int bus)$/;"	f
+i2c_detect_devices	tools/xpt-i2c.c	/^i2c_detect_devices(int bus)$/;"	f
+i2c_fd	lib/i2c_linux.c	/^static int i2c_fd[I2C_BUS_MAX];$/;"	v	file:
+i2c_get	tools/xpt-i2c.c	/^i2c_get(int bus, uint8_t device_address, uint8_t register_address, uint8_t* data)$/;"	f
+i2c_init_bus_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_init_bus_replace) (xpt_i2c_context dev);$/;"	m	struct:__anon22
+i2c_init_post	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_init_post) (xpt_i2c_context dev);$/;"	m	struct:__anon22
+i2c_init_pre	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_init_pre) (unsigned int bus);$/;"	m	struct:__anon22
+i2c_init_raw_replace	include/xpt_adv_func.h	/^    xpt_i2c_context (*i2c_init_raw_replace) (unsigned int bus);$/;"	m	struct:__anon22
+i2c_msg	include/linux/i2c-dev.h	/^struct i2c_msg {$/;"	s
+i2c_open	lib/i2c_linux.c	/^int i2c_open(int bus)$/;"	f
+i2c_rdwr_ioctl_data	include/linux/i2c-dev.h	/^struct i2c_rdwr_ioctl_data {$/;"	s
+i2c_read	lib/i2c_linux.c	/^int i2c_read(int bus, unsigned short slave_addr, unsigned char reg_addr, $/;"	f
+i2c_read_byte_data_replace	include/xpt_adv_func.h	/^    int (*i2c_read_byte_data_replace) (xpt_i2c_context dev, const uint8_t command);$/;"	m	struct:__anon22
+i2c_read_byte_replace	include/xpt_adv_func.h	/^    int (*i2c_read_byte_replace) (xpt_i2c_context dev);$/;"	m	struct:__anon22
+i2c_read_bytes_data_replace	include/xpt_adv_func.h	/^    int (*i2c_read_bytes_data_replace) (xpt_i2c_context dev, uint8_t command, uint8_t* data, int length);$/;"	m	struct:__anon22
+i2c_read_replace	include/xpt_adv_func.h	/^    int (*i2c_read_replace) (xpt_i2c_context dev, uint8_t* data, int length);$/;"	m	struct:__anon22
+i2c_read_word_data_replace	include/xpt_adv_func.h	/^    int (*i2c_read_word_data_replace) (xpt_i2c_context dev, const uint8_t command);$/;"	m	struct:__anon22
+i2c_set	tools/xpt-i2c.c	/^i2c_set(int bus, uint8_t device_address, uint8_t register_address, uint8_t data)$/;"	f
+i2c_set_frequency_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_set_frequency_replace) (xpt_i2c_context dev, xpt_i2c_mode_t mode);$/;"	m	struct:__anon22
+i2c_smbus_data	include/linux/i2c-dev.h	/^union i2c_smbus_data {$/;"	u
+i2c_smbus_data_t	src/i2c/i2c.c	/^} i2c_smbus_data_t;$/;"	t	typeref:union:i2c_smbus_data_union	file:
+i2c_smbus_data_union	src/i2c/i2c.c	/^typedef union i2c_smbus_data_union {$/;"	u	file:
+i2c_smbus_ioctl_data	include/linux/i2c-dev.h	/^struct i2c_smbus_ioctl_data {$/;"	s
+i2c_smbus_ioctl_data_struct	src/i2c/i2c.c	/^typedef struct i2c_smbus_ioctl_data_struct {$/;"	s	file:
+i2c_smbus_ioctl_data_t	src/i2c/i2c.c	/^} i2c_smbus_ioctl_data_t;$/;"	t	typeref:struct:i2c_smbus_ioctl_data_struct	file:
+i2c_stop_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_stop_replace) (xpt_i2c_context dev);$/;"	m	struct:__anon22
+i2c_write	lib/i2c_linux.c	/^int i2c_write(int bus, unsigned short slave_addr, unsigned char reg_addr, $/;"	f
+i2c_write_byte_data_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_write_byte_data_replace) (xpt_i2c_context dev, const uint8_t data, const uint8_t command);$/;"	m	struct:__anon22
+i2c_write_byte_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_write_byte_replace) (xpt_i2c_context dev, uint8_t data);$/;"	m	struct:__anon22
+i2c_write_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_write_replace) (xpt_i2c_context dev, const uint8_t* data, int length);$/;"	m	struct:__anon22
+i2c_write_word_data_replace	include/xpt_adv_func.h	/^    xpt_result_t (*i2c_write_word_data_replace) (xpt_i2c_context dev, const uint16_t data, const uint8_t command);$/;"	m	struct:__anon22
+i2cmsg	include/firmata/firmata.h	/^    int i2cmsg[256][256];$/;"	m	struct:s_firmata
+id	api/xpt/iio_kernel_headers.h	/^	unsigned long long int	id;$/;"	m	struct:iio_event_data
+id	test/spi_fram.c	/^	uint8_t id[MAX_ID_LEN];$/;"	m	struct:spi_fram_info	file:
+id_len	test/spi_fram.c	/^	int id_len;$/;"	m	struct:spi_fram_info	file:
+iio_chan_type	api/xpt/iio_kernel_headers.h	/^enum iio_chan_type {$/;"	g
+iio_device_count	include/xpt_internal_types.h	/^    uint8_t iio_device_count; \/**< IIO device count *\/$/;"	m	struct:__anon15
+iio_devices	include/xpt_internal_types.h	/^    struct _iio* iio_devices; \/**< Pointer to IIO devices *\/$/;"	m	struct:__anon15	typeref:struct:__anon15::_iio
+iio_event_data	api/xpt/iio_kernel_headers.h	/^struct iio_event_data {$/;"	s
+iio_event_direction	api/xpt/iio_kernel_headers.h	/^enum iio_event_direction {$/;"	g
+iio_event_type	api/xpt/iio_kernel_headers.h	/^enum iio_event_type {$/;"	g
+iio_modifier	api/xpt/iio_kernel_headers.h	/^enum iio_modifier {$/;"	g
+index	api/xpt/iio.h	/^    int index;$/;"	m	struct:__anon30
+index	include/xpt_internal_types.h	/^    int index; \/**< the uart index, as known to the os. *\/$/;"	m	struct:_uart
+index	include/xpt_internal_types.h	/^    uint8_t index;$/;"	m	struct:_firmata
+index	include/xpt_internal_types.h	/^    unsigned int index; \/**< ID as exposed in the system *\/$/;"	m	struct:__anon12
+index	include/xpt_internal_types.h	/^    unsigned int index; \/**< ID as exposed in the system *\/$/;"	m	struct:__anon13
+init_plat_func_t	src/json/jsonplatform.c	/^typedef xpt_result_t (*init_plat_func_t)(json_object*, xpt_board_t*, int);$/;"	t	file:
+isReady	include/firmata/firmata.h	/^    int isReady;$/;"	m	struct:s_firmata
+ismeta	src/glob/glob.c	123;"	d	file:
+isr	include/xpt_internal_types.h	/^    void (* isr)(char* data, void* args); \/**< the interrupt service request *\/$/;"	m	struct:_iio
+isr	include/xpt_internal_types.h	/^    void (* isr)(uint8_t*, int); \/**< the feature response request *\/$/;"	m	struct:_firmata
+isr	include/xpt_internal_types.h	/^    void (* isr)(void *); \/**< the interrupt service request *\/$/;"	m	struct:_gpio
+isr_args	include/xpt_internal_types.h	/^    void *isr_args; \/**< args return when interrupt service request triggered *\/$/;"	m	struct:_gpio
+isr_args	include/xpt_internal_types.h	/^    void *isr_args; \/**< args return when interrupt service request triggered *\/$/;"	m	struct:_iio
+isr_control_pipe	include/xpt_internal_types.h	/^    int isr_control_pipe[2]; \/**< a pipe used to interrupt the isr from polling the value fd*\/$/;"	m	struct:_gpio
+isr_event	include/xpt_internal_types.h	/^    void (* isr_event)(struct iio_event_data* data, void* args); \/**< the event interrupt service request *\/$/;"	m	struct:_iio
+isr_thread_terminating	include/xpt_internal_types.h	/^    xpt_boolean_t isr_thread_terminating; \/**< is the isr thread being terminated? *\/$/;"	m	struct:_gpio
+isr_value_fp	include/xpt_internal_types.h	/^    int isr_value_fp; \/**< the isr file pointer on the value *\/$/;"	m	struct:_gpio
+ixpt_init	src/xpt.c	/^ixpt_init()$/;"	f
+java_attach_thread	include/xpt_lang_func.h	/^	xpt_result_t (*java_attach_thread)();$/;"	m	struct:__anon17
+java_create_global_ref	include/xpt_lang_func.h	/^	void* (*java_create_global_ref)(void* args);$/;"	m	struct:__anon17
+java_delete_global_ref	include/xpt_lang_func.h	/^	void (*java_delete_global_ref)(void* ref);$/;"	m	struct:__anon17
+java_detach_thread	include/xpt_lang_func.h	/^	void (*java_detach_thread)();$/;"	m	struct:__anon17
+java_isr_callback	include/xpt_lang_func.h	/^	void (*java_isr_callback)(void *args);$/;"	m	struct:__anon17
+l_brace	src/glob/glob.c	/^	size_t l_brace;$/;"	m	struct:glob_limit	file:
+l_readdir	src/glob/glob.c	/^	size_t l_readdir;$/;"	m	struct:glob_limit	file:
+l_stat	src/glob/glob.c	/^	size_t l_stat;$/;"	m	struct:glob_limit	file:
+l_string	src/glob/glob.c	/^	size_t l_string;$/;"	m	struct:glob_limit	file:
+lang_func	src/xpt.c	/^xpt_lang_func_t* lang_func = NULL;$/;"	v
+led_name	include/xpt_internal_types.h	/^    char *led_name; \/**< LED name *\/$/;"	m	struct:_led
+led_path	include/xpt_internal_types.h	/^    char led_path[64]; \/**< sysfs path of the LED *\/$/;"	m	struct:_led
+len	include/linux/i2c-dev.h	/^ short len;$/;"	m	struct:i2c_msg
+len	include/linux/spi_kernel_headers.h	/^        __u32           len;$/;"	m	struct:spi_ioc_transfer
+lendian	api/xpt/iio.h	/^    xpt_boolean_t lendian;$/;"	m	struct:__anon30
+list_pins	tools/xpt-gpio.c	/^list_pins()$/;"	f
+list_platform_pins	tools/xpt-gpio.c	/^list_platform_pins(uint8_t platform_offset)$/;"	f
+location	api/xpt/iio.h	/^    unsigned int location;$/;"	m	struct:__anon30
+lock	include/firmata/firmata.h	/^    pthread_spinlock_t lock;$/;"	m	struct:s_firmata
+lsb	include/xpt_internal_types.h	/^    xpt_boolean_t lsb; \/**< least significant bit mode *\/$/;"	m	struct:_spi
+main	test/socket_resp.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/socket_send.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/spi_fram.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/uart_resp.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/uart_send.c	/^int main(int argc, char *argv[])$/;"	f
+main	tools/xpt-gpio.c	/^main(int argc, char** argv)$/;"	f
+main	tools/xpt-i2c.c	/^main(int argc, char** argv)$/;"	f
+main	tools/xpt-uart.c	/^main(int argc, const char** argv) {$/;"	f
+mask	api/xpt/iio.h	/^    uint64_t mask;$/;"	m	struct:__anon30
+mask	src/mips/mediatek.c	/^    unsigned int mask;$/;"	m	struct:pinmux	file:
+match	src/glob/glob.c	/^match(const Char *name, const Char *pat, const Char *patend)$/;"	f	file:
+max_analog_value	src/aio/aio.c	/^static float max_analog_value;$/;"	v	file:
+max_bright_fd	include/xpt_internal_types.h	/^    int max_bright_fd; \/**< maximum brightness file descriptor *\/$/;"	m	struct:_led
+mem_dev	include/xpt_internal_types.h	/^    char mem_dev[32]; \/**< Memory device to use \/dev\/uio0 etc *\/$/;"	m	struct:__anon8
+mem_sz	include/xpt_internal_types.h	/^    unsigned int mem_sz; \/** Size of memory to map *\/$/;"	m	struct:__anon8
+miso	include/xpt_internal_types.h	/^    int miso; \/**< Master In, Slave Out. *\/$/;"	m	struct:__anon11
+mmap	include/xpt_internal_types.h	/^    xpt_mmap_pin_t mmap; \/**< GPIO through memory *\/$/;"	m	struct:__anon9
+mmap_count	src/mips/mediatek.c	/^static unsigned int mmap_count = 0;$/;"	v	file:
+mmap_fd	src/mips/mediatek.c	/^static int mmap_fd = 0;$/;"	v	file:
+mmap_read	include/xpt_internal_types.h	/^    int (*mmap_read) (xpt_gpio_context dev);$/;"	m	struct:_gpio
+mmap_reg	src/mips/mediatek.c	/^static uint8_t *mmap_reg = NULL;$/;"	v	file:
+mmap_size	src/mips/mediatek.c	/^static int mmap_size;$/;"	v	file:
+mmap_write	include/xpt_internal_types.h	/^    xpt_result_t (*mmap_write) (xpt_gpio_context dev, int value);$/;"	m	struct:_gpio
+mock_dev_addr	include/xpt_internal_types.h	/^    uint8_t mock_dev_addr; \/**< address of the mock I2C device *\/$/;"	m	struct:_i2c
+mock_dev_data	include/xpt_internal_types.h	/^    uint8_t* mock_dev_data; \/**< mock device data register block contents *\/$/;"	m	struct:_i2c
+mock_dev_data_len	include/xpt_internal_types.h	/^    uint8_t mock_dev_data_len; \/**< mock device data register block length in bytes *\/$/;"	m	struct:_i2c
+mock_dir	include/xpt_internal_types.h	/^    xpt_gpio_dir_t mock_dir; \/**< mock direction of the pin *\/$/;"	m	struct:_gpio
+mock_state	include/xpt_internal_types.h	/^    int mock_state; \/**< mock state of the pin *\/$/;"	m	struct:_gpio
+mode	include/firmata/firmata.h	/^    uint8_t mode;$/;"	m	struct:s_pin
+mode	include/xpt_internal_types.h	/^    uint32_t mode;      \/**< Spi mode see spidev.h *\/$/;"	m	struct:_spi
+mosi	include/xpt_internal_types.h	/^    int mosi; \/**< Master Out, Slave In. *\/$/;"	m	struct:__anon11
+msgs	include/linux/i2c-dev.h	/^ struct i2c_msg __user *msgs;$/;"	m	struct:i2c_rdwr_ioctl_data	typeref:struct:i2c_rdwr_ioctl_data::__user
+mt7688_mux	src/mips/mediatek.c	/^} mt7688_mux[] = {$/;"	v	typeref:struct:pinmux	file:
+mtk_add_pin	src/mips/mediatek.c	/^mtk_add_pin(xpt_board_t *b, int index, int pin, const char *name, int mux,$/;"	f	file:
+mtk_add_uart	src/mips/mediatek.c	/^mtk_add_uart(xpt_board_t *b, char *path, int tx_pin, int rx_pin)$/;"	f	file:
+mtk_common	src/mips/mediatek.c	/^mtk_common(char *name, int pin_count)$/;"	f	file:
+mtk_gpio_init_pre	src/mips/mediatek.c	/^mtk_gpio_init_pre(int pin)$/;"	f	file:
+mtk_i2c_freq	src/mips/mediatek.c	/^mtk_i2c_freq(xpt_i2c_context dev, xpt_i2c_mode_t mode)$/;"	f	file:
+mtk_i2c_init_pre	src/mips/mediatek.c	/^mtk_i2c_init_pre(unsigned int bus)$/;"	f	file:
+mtk_mmap_gpiomode	src/mips/mediatek.c	/^mtk_mmap_gpiomode(void)$/;"	f	file:
+mtk_mmap_read	src/mips/mediatek.c	/^mtk_mmap_read(xpt_gpio_context dev)$/;"	f	file:
+mtk_mmap_setup	src/mips/mediatek.c	/^mtk_mmap_setup(xpt_gpio_context dev, xpt_boolean_t en)$/;"	f	file:
+mtk_mmap_unsetup	src/mips/mediatek.c	/^mtk_mmap_unsetup()$/;"	f	file:
+mtk_mmap_write	src/mips/mediatek.c	/^mtk_mmap_write(xpt_gpio_context dev, int value)$/;"	f	file:
+mtk_pwm_init_post	src/mips/mediatek.c	/^mtk_pwm_init_post(xpt_pwm_context pwm)$/;"	f	file:
+mtk_select_function	src/mips/mediatek.c	/^mtk_select_function(unsigned int id, char *name)$/;"	f	file:
+mtk_set_pinmux	src/mips/mediatek.c	/^mtk_set_pinmux(unsigned int mask, unsigned int shift, unsigned int val)$/;"	f	file:
+mtk_spi_init_pre	src/mips/mediatek.c	/^mtk_spi_init_pre(int bus)$/;"	f	file:
+mtk_uart_init_pre	src/mips/mediatek.c	/^mtk_uart_init_pre(int index)$/;"	f	file:
+mux	include/xpt_internal_types.h	/^    xpt_mux_t mux[6]; \/** Array holding information about mux *\/$/;"	m	struct:__anon7
+mux_total	include/xpt_internal_types.h	/^    unsigned int mux_total; \/** Numfer of muxes needed for operation of pin *\/$/;"	m	struct:__anon7
+name	api/xpt/iio.h	/^    char* name;$/;"	m	struct:__anon31
+name	include/xpt_internal_types.h	/^    char *name; \/**< Peripheral manager's pin name *\/$/;"	m	struct:__anon9
+name	include/xpt_internal_types.h	/^    char *name; \/**< i2c bus name *\/$/;"	m	struct:__anon10
+name	include/xpt_internal_types.h	/^    char *name; \/**< pwm device name *\/$/;"	m	struct:__anon13
+name	include/xpt_internal_types.h	/^    char *name; \/**< spi bus name *\/$/;"	m	struct:__anon11
+name	include/xpt_internal_types.h	/^    char *name; \/**< uart name *\/$/;"	m	struct:__anon12
+name	include/xpt_internal_types.h	/^    char* name; \/**< IIO device name *\/$/;"	m	struct:_iio
+name	src/mips/mediatek.c	/^    char *name;$/;"	m	struct:pinmux	file:
+name	test/spi_fram.c	/^	uint8_t name[MAX_NAME_LEN];$/;"	m	struct:spi_fram_info	file:
+nmsgs	include/linux/i2c-dev.h	/^ int nmsgs;$/;"	m	struct:i2c_rdwr_ioctl_data
+no_bus_mux	include/xpt_internal_types.h	/^    xpt_boolean_t no_bus_mux; \/**< i2c\/spi\/adc\/pwm\/uart bus muxing setup not required *\/$/;"	m	struct:_board_t
+now	tools/xpt-uart.c	/^now(void) {$/;"	f
+num	include/xpt_internal_types.h	/^    int num; \/**< IIO device number *\/$/;"	m	struct:_iio
+num_i2c_devices	src/xpt.c	/^static int num_i2c_devices = 0;$/;"	v	file:
+num_iio_devices	src/xpt.c	/^static int num_iio_devices = 0;$/;"	v	file:
+offset	api/xpt/iio.h	/^    unsigned int offset;$/;"	m	struct:__anon30
+output_en	include/xpt_internal_types.h	/^    xpt_boolean_t output_en:1;$/;"	m	struct:__anon6
+output_en_high	include/xpt_internal_types.h	/^    xpt_boolean_t output_en_high:1;$/;"	m	struct:__anon6
+output_enable	include/xpt_internal_types.h	/^    unsigned int output_enable; \/** Output Enable GPIO, for level shifting *\/$/;"	m	struct:__anon7
+owner	include/xpt_internal_types.h	/^    xpt_boolean_t owner; \/**< If this context originally exported the pin *\/$/;"	m	struct:_gpio
+owner	include/xpt_internal_types.h	/^    xpt_boolean_t owner; \/**< Owner of pwm context*\/$/;"	m	struct:_pwm
+pad	include/linux/spi_kernel_headers.h	/^        __u16           pad;$/;"	m	struct:spi_ioc_transfer
+parent_id	include/xpt_internal_types.h	/^    unsigned int parent_id; \/** parent chip id *\/$/;"	m	struct:__anon7
+paritymode_table	tools/xpt-uart.c	/^static const char paritymode_table[] = {$/;"	v	file:
+parse_buff	include/firmata/firmata.h	/^    uint8_t parse_buff[FIRMATA_MSG_LEN];$/;"	m	struct:s_firmata
+parse_command_len	include/firmata/firmata.h	/^    int parse_command_len;$/;"	m	struct:s_firmata
+parse_count	include/firmata/firmata.h	/^    int parse_count;$/;"	m	struct:s_firmata
+path	include/xpt_internal_types.h	/^    const char* path; \/**< the uart device path. *\/$/;"	m	struct:_uart
+period	include/xpt_internal_types.h	/^    int period;  \/**< Cache the period to speed up setting duty *\/$/;"	m	struct:_pwm
+phy_pin	include/xpt_internal_types.h	/^    int phy_pin; \/**< pin passed to clean init. -1 none and raw*\/$/;"	m	struct:_gpio
+phy_pin_count	include/xpt_internal_types.h	/^    int phy_pin_count; \/**< The Total IO pins on board *\/$/;"	m	struct:_board_t
+pin	include/xpt_internal_types.h	/^    int pin; \/**< the pin number, as known to the os. *\/$/;"	m	struct:_gpio
+pin	include/xpt_internal_types.h	/^    int pin; \/**< the pin number, as known to the os. *\/$/;"	m	struct:_pwm
+pin	include/xpt_internal_types.h	/^    unsigned int pin;    \/**< Raw GPIO pin id *\/$/;"	m	struct:__anon5
+pin	include/xpt_internal_types.h	/^    unsigned int pin; \/**< Pin as exposed in the system *\/$/;"	m	struct:__anon14
+pin	tools/xpt-gpio.c	/^    int pin;$/;"	m	struct:gpio_source	file:
+pincmd	include/xpt_internal_types.h	/^    unsigned int pincmd; \/**< Pin command pincmd_xxxx *\/$/;"	m	struct:__anon5
+pincmd_t	include/xpt_internal_types.h	/^} pincmd_t;$/;"	t	typeref:enum:__anon4
+pinmap	include/xpt_internal_types.h	/^    int pinmap; \/**< sysfs pin *\/$/;"	m	struct:__anon7
+pinmux	src/mips/mediatek.c	/^static struct pinmux {$/;"	s	file:
+pins	include/firmata/firmata.h	/^    t_pin pins[128];$/;"	m	struct:s_firmata
+pins	include/xpt_internal_types.h	/^    xpt_pininfo_t* pins;     \/**< Pointer to pin array *\/$/;"	m	struct:_board_t
+plat	src/xpt.c	/^xpt_board_t* plat = NULL;$/;"	v
+plat_iio	src/xpt.c	/^xpt_iio_info_t* plat_iio = NULL;$/;"	v
+platform_name	include/xpt_internal_types.h	/^    char* platform_name; \/**< Platform Name pointer *\/$/;"	m	struct:_board_t
+platform_name	src/xpt.c	/^char* platform_name = NULL;$/;"	v
+platform_type	include/xpt_internal_types.h	/^    xpt_platform_t platform_type; \/**< Platform type *\/$/;"	m	struct:_board_t
+platform_version	include/xpt_internal_types.h	/^    const char* platform_version; \/**< Platform versioning info *\/$/;"	m	struct:_board_t
+pman_xpt_deinit	src/peripheralman/peripheralman.c	/^pman_xpt_deinit()$/;"	f
+print_bus	tools/xpt-i2c.c	/^print_bus(xpt_board_t* board)$/;"	f
+print_busses	tools/xpt-i2c.c	/^print_busses()$/;"	f
+print_command_error	tools/xpt-gpio.c	/^print_command_error()$/;"	f
+print_command_error	tools/xpt-i2c.c	/^print_command_error()$/;"	f
+print_help	tools/xpt-gpio.c	/^print_help()$/;"	f
+print_help	tools/xpt-i2c.c	/^print_help()$/;"	f
+print_version	tools/xpt-gpio.c	/^print_version()$/;"	f
+print_version	tools/xpt-i2c.c	/^print_version()$/;"	f
+process_command	tools/xpt-i2c.c	/^process_command(int argc, char** argv)$/;"	f
+pullup_en	include/xpt_internal_types.h	/^    xpt_boolean_t pullup_en:1;$/;"	m	struct:__anon6
+pullup_en_hiz	include/xpt_internal_types.h	/^    xpt_boolean_t pullup_en_hiz:1;$/;"	m	struct:__anon6
+pwm	include/xpt_internal_types.h	/^    xpt_boolean_t pwm:1;       \/**< Is the pin pwm capable *\/$/;"	m	struct:__anon3
+pwm	include/xpt_internal_types.h	/^    xpt_pin_t pwm;  \/**< PWM structure *\/$/;"	m	struct:__anon9
+pwm_cache	src/grovepi/grovepi.c	/^static int pwm_cache[10];$/;"	v	file:
+pwm_default_period	include/xpt_internal_types.h	/^    int pwm_default_period; \/**< The default PWM period is US *\/$/;"	m	struct:_board_t
+pwm_dev	include/xpt_internal_types.h	/^    xpt_pwm_dev_t pwm_dev[MAX_PWM_COUNT]; \/**< Array of PWMs *\/$/;"	m	struct:_board_t
+pwm_dev_count	include/xpt_internal_types.h	/^    int pwm_dev_count; \/**< Usable pwm Count *\/$/;"	m	struct:_board_t
+pwm_dev_count	src/peripheralman/peripheralman.c	/^int pwm_dev_count = 0;$/;"	v
+pwm_devices	src/peripheralman/peripheralman.c	/^char **pwm_devices = NULL;$/;"	v
+pwm_enable_pre	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_enable_pre) (xpt_pwm_context dev, int enable);$/;"	m	struct:__anon22
+pwm_enable_replace	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_enable_replace) (xpt_pwm_context dev, int enable);$/;"	m	struct:__anon22
+pwm_init_internal_replace	include/xpt_adv_func.h	/^    xpt_pwm_context (*pwm_init_internal_replace) (void* func_table, int pin);$/;"	m	struct:__anon22
+pwm_init_post	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_init_post) (xpt_pwm_context pwm);$/;"	m	struct:__anon22
+pwm_init_pre	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_init_pre) (int pin);$/;"	m	struct:__anon22
+pwm_init_raw_replace	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_init_raw_replace) (xpt_pwm_context dev, int pin);$/;"	m	struct:__anon22
+pwm_init_replace	include/xpt_adv_func.h	/^    xpt_pwm_context (*pwm_init_replace) (int pin);$/;"	m	struct:__anon22
+pwm_max_period	include/xpt_internal_types.h	/^    int pwm_max_period; \/**< Maximum period in us *\/$/;"	m	struct:_board_t
+pwm_min_period	include/xpt_internal_types.h	/^    int pwm_min_period; \/**< Minimum period in us *\/$/;"	m	struct:_board_t
+pwm_period_replace	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_period_replace) (xpt_pwm_context dev, int period);$/;"	m	struct:__anon22
+pwm_read_replace	include/xpt_adv_func.h	/^    float (*pwm_read_replace) (xpt_pwm_context dev);$/;"	m	struct:__anon22
+pwm_write_pre	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_write_pre) (xpt_pwm_context dev, float percentage);$/;"	m	struct:__anon22
+pwm_write_replace	include/xpt_adv_func.h	/^    xpt_result_t (*pwm_write_replace) (xpt_pwm_context dev, float duty);$/;"	m	struct:__anon22
+python_isr	include/xpt_lang_func.h	/^    void (*python_isr)(void (*isr)(void*), void* isr_args);$/;"	m	struct:__anon17
+qprintf	src/glob/glob.c	/^qprintf(const char *str, Char *s)$/;"	f	file:
+raw_bits	src/aio/aio.c	/^static int raw_bits;$/;"	v	file:
+rdid	test/spi_fram.c	/^	uint8_t rdid;$/;"	m	struct:spi_fram_cmd	file:
+rdsr	test/spi_fram.c	/^	uint8_t rdsr;$/;"	m	struct:spi_fram_cmd	file:
+read	test/spi_fram.c	/^	uint8_t read;$/;"	m	struct:spi_fram_cmd	file:
+read_write	include/linux/i2c-dev.h	/^ char read_write;$/;"	m	struct:i2c_smbus_ioctl_data
+read_write	src/i2c/i2c.c	/^    uint8_t read_write;     \/\/\/< operation direction$/;"	m	struct:i2c_smbus_ioctl_data_struct	file:
+rts	include/xpt_internal_types.h	/^    int rts; \/**< uart rts *\/$/;"	m	struct:__anon12
+run_interactive_mode	tools/xpt-i2c.c	/^run_interactive_mode()$/;"	f
+rx	include/xpt_internal_types.h	/^    int rx; \/**< uart rx *\/$/;"	m	struct:__anon12
+rx_buf	include/linux/spi_kernel_headers.h	/^        __u64           rx_buf;$/;"	m	struct:spi_ioc_transfer
+rx_nbits	include/linux/spi_kernel_headers.h	/^        __u8            rx_nbits;$/;"	m	struct:spi_ioc_transfer
+s_firmata	include/firmata/firmata.h	/^typedef struct s_firmata {$/;"	s
+s_pin	include/firmata/firmata.h	/^typedef struct s_pin {$/;"	s
+scl	include/xpt_internal_types.h	/^    int scl; \/**< i2c SCL *\/$/;"	m	struct:__anon10
+sclk	include/xpt_internal_types.h	/^    int sclk; \/**< Serial Clock *\/$/;"	m	struct:__anon11
+sda	include/xpt_internal_types.h	/^    int sda; \/**< i2c SDA *\/$/;"	m	struct:__anon10
+shift	api/xpt/iio.h	/^    unsigned int shift;$/;"	m	struct:__anon30
+shift	src/mips/mediatek.c	/^    unsigned int shift;$/;"	m	struct:pinmux	file:
+shifter_value	src/aio/aio.c	/^static unsigned int shifter_value;$/;"	v	file:
+signedd	api/xpt/iio.h	/^    int signedd;$/;"	m	struct:__anon30
+size	include/linux/i2c-dev.h	/^ int size;$/;"	m	struct:i2c_smbus_ioctl_data
+size	src/i2c/i2c.c	/^    int size;               \/\/\/< data size$/;"	m	struct:i2c_smbus_ioctl_data_struct	file:
+size	test/spi_fram.c	/^	int size;$/;"	m	struct:spi_fram_info	file:
+slave_s	include/xpt_internal_types.h	/^    unsigned int slave_s; \/**< Slave select *\/$/;"	m	struct:__anon11
+sock_info_t	include/socket.h	/^struct sock_info_t {$/;"	s
+socket_accept	lib/socket_linux.c	/^int socket_accept(struct sock_info_t *sock_listen, struct sock_info_t *sock_conn)$/;"	f
+socket_accept	lib/socket_windows.c	/^int socket_accept(struct sock_info_t *sock_listen, struct sock_info_t *sock_conn)$/;"	f
+socket_bind	lib/socket_linux.c	/^int socket_bind(struct sock_info_t *sock, int port)$/;"	f
+socket_bind	lib/socket_windows.c	/^int socket_bind(struct sock_info_t *sock, int port)$/;"	f
+socket_close	lib/socket_linux.c	/^int socket_close(struct sock_info_t *sock)$/;"	f
+socket_close	lib/socket_windows.c	/^int socket_close(struct sock_info_t *sock)$/;"	f
+socket_connect	lib/socket_linux.c	/^int socket_connect(struct sock_info_t *sock, char *host, int port)$/;"	f
+socket_connect	lib/socket_windows.c	/^int socket_connect(struct sock_info_t *sock, char *host, int port)$/;"	f
+socket_listen	lib/socket_linux.c	/^int socket_listen(struct sock_info_t *sock)$/;"	f
+socket_listen	lib/socket_windows.c	/^int socket_listen(struct sock_info_t *sock)$/;"	f
+socket_open	lib/socket_linux.c	/^int socket_open(struct sock_info_t *sock, int type)$/;"	f
+socket_open	lib/socket_windows.c	/^int socket_open(struct sock_info_t *sock, int type)$/;"	f
+socket_read	lib/socket_linux.c	/^int socket_read(struct sock_info_t *sock, unsigned char *data, int len)$/;"	f
+socket_read	lib/socket_windows.c	/^int socket_read(struct sock_info_t *sock, unsigned char *data, int len)$/;"	f
+socket_write	lib/socket_linux.c	/^int socket_write(struct sock_info_t *sock, unsigned char *data, int len)$/;"	f
+socket_write	lib/socket_windows.c	/^int socket_write(struct sock_info_t *sock, unsigned char *data, int len)$/;"	f
+speed_hz	include/linux/spi_kernel_headers.h	/^        __u32           speed_hz;$/;"	m	struct:spi_ioc_transfer
+speed_to_uint	src/uart/uart.c	/^static unsigned int speed_to_uint(speed_t speedt) {$/;"	f	file:
+spi	include/xpt_internal_types.h	/^    xpt_boolean_t spi:1;       \/**< Is the pin spi capable *\/$/;"	m	struct:__anon3
+spi	include/xpt_internal_types.h	/^    xpt_pin_t spi;  \/**< spi bus\/pin *\/$/;"	m	struct:__anon9
+spi_bit_per_word_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_bit_per_word_replace) (xpt_spi_context dev, unsigned int bits);$/;"	m	struct:__anon22
+spi_bus	include/xpt_internal_types.h	/^    xpt_spi_bus_t spi_bus[MAX_SPI_BUS_COUNT];       \/**< Array of spi *\/$/;"	m	struct:_board_t
+spi_bus_count	include/xpt_internal_types.h	/^    int spi_bus_count; \/**< Usable spi Count *\/$/;"	m	struct:_board_t
+spi_busses	src/peripheralman/peripheralman.c	/^char **spi_busses = NULL;$/;"	v
+spi_busses_count	src/peripheralman/peripheralman.c	/^int spi_busses_count = 0;$/;"	v
+spi_close	lib/spi_linux.c	/^int spi_close(int bus, int cs)$/;"	f
+spi_fd	lib/spi_linux.c	/^static int spi_fd[SPI_BUS_MAX][SPI_CS_MAX];$/;"	v	file:
+spi_fram_cmd	test/spi_fram.c	/^struct spi_fram_cmd {$/;"	s	file:
+spi_fram_info	test/spi_fram.c	/^struct spi_fram_info {$/;"	s	file:
+spi_fram_probe	test/spi_fram.c	/^static struct spi_fram_info *spi_fram_probe(void)$/;"	f	file:
+spi_frequency_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_frequency_replace) (xpt_spi_context dev, int hz);$/;"	m	struct:__anon22
+spi_init_post	include/xpt_adv_func.h	/^    xpt_result_t (*spi_init_post) (xpt_spi_context spi);$/;"	m	struct:__anon22
+spi_init_pre	include/xpt_adv_func.h	/^    xpt_result_t (*spi_init_pre) (int bus);$/;"	m	struct:__anon22
+spi_init_raw_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_init_raw_replace) (xpt_spi_context spi, unsigned int bus, unsigned int cs);$/;"	m	struct:__anon22
+spi_ioc_transfer	include/linux/spi_kernel_headers.h	/^struct spi_ioc_transfer {$/;"	s
+spi_lsbmode_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_lsbmode_replace) (xpt_spi_context dev, xpt_boolean_t lsb);$/;"	m	struct:__anon22
+spi_mode_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_mode_replace) (xpt_spi_context dev, xpt_spi_mode_t mode);$/;"	m	struct:__anon22
+spi_open	lib/spi_linux.c	/^int spi_open(int bus, int cs, int mode, unsigned int speed)$/;"	f
+spi_stop_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_stop_replace) (xpt_spi_context dev);$/;"	m	struct:__anon22
+spi_transfer_buf_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_transfer_buf_replace) (xpt_spi_context dev, uint8_t* data, uint8_t* rxbuf, int length);$/;"	m	struct:__anon22
+spi_transfer_buf_word_replace	include/xpt_adv_func.h	/^    xpt_result_t (*spi_transfer_buf_word_replace) (xpt_spi_context dev, uint16_t* data, uint16_t* rxbuf, int length);$/;"	m	struct:__anon22
+spi_write_replace	include/xpt_adv_func.h	/^    int (*spi_write_replace) (xpt_spi_context dev, uint8_t data);$/;"	m	struct:__anon22
+spi_write_word_replace	include/xpt_adv_func.h	/^    int (*spi_write_word_replace) (xpt_spi_context dev, uint16_t data);$/;"	m	struct:__anon22
+spi_xfer	lib/spi_linux.c	/^int spi_xfer(int bus, int cs, unsigned char *tx, unsigned char *rx, int len)$/;"	f
+sub_platform	include/xpt_internal_types.h	/^    struct _board_t* sub_platform;     \/**< Pointer to sub platform *\/$/;"	m	struct:_board_t	typeref:struct:_board_t::_board_t
+supported_modes	include/firmata/firmata.h	/^    uint64_t supported_modes;$/;"	m	struct:s_pin
+t_firmata	include/firmata/firmata.h	/^} t_firmata;$/;"	t	typeref:struct:s_firmata
+t_pin	include/firmata/firmata.h	/^} t_pin;$/;"	t	typeref:struct:s_pin
+thread_id	include/xpt_internal_types.h	/^    pthread_t thread_id; \/**< the isr handler thread id *\/$/;"	m	struct:_gpio
+thread_id	include/xpt_internal_types.h	/^    pthread_t thread_id; \/**< the isr handler thread id *\/$/;"	m	struct:_iio
+three_wire	include/xpt_internal_types.h	/^    xpt_boolean_t three_wire; \/**< Is the bus only a three wire system *\/$/;"	m	struct:__anon11
+timestamp	api/xpt/iio_kernel_headers.h	/^	long long int	timestamp;$/;"	m	struct:iio_event_data
+trig_fd	include/xpt_internal_types.h	/^    int trig_fd; \/**< trigger file descriptor *\/$/;"	m	struct:_led
+tx	include/xpt_internal_types.h	/^    int tx; \/**< uart tx *\/$/;"	m	struct:__anon12
+tx_buf	include/linux/spi_kernel_headers.h	/^        __u64           tx_buf;$/;"	m	struct:spi_ioc_transfer
+tx_nbits	include/linux/spi_kernel_headers.h	/^        __u8            tx_nbits;$/;"	m	struct:spi_ioc_transfer
+type	api/xpt/iio.h	/^    char* type;$/;"	m	struct:__anon30
+uart	api/xpt/uart_ow.h	/^    xpt_uart_context uart;$/;"	m	struct:_xpt_uart_ow
+uart	include/firmata/firmata.h	/^    xpt_uart_context uart;$/;"	m	struct:s_firmata
+uart	include/xpt_internal_types.h	/^    xpt_boolean_t uart:1;       \/**< Is the pin uart capable *\/$/;"	m	struct:__anon3
+uart	include/xpt_internal_types.h	/^    xpt_pin_t uart;  \/**< uart module\/pin *\/$/;"	m	struct:__anon9
+uart_close	lib/uart_linux.c	/^int uart_close(int com)$/;"	f
+uart_close	lib/uart_windows.c	/^int uart_close(int com)$/;"	f
+uart_data_available_replace	include/xpt_adv_func.h	/^    xpt_boolean_t (*uart_data_available_replace) (xpt_uart_context dev, unsigned int millis);$/;"	m	struct:__anon22
+uart_dev	include/xpt_internal_types.h	/^    xpt_uart_dev_t uart_dev[MAX_UART_COUNT]; \/**< Array of UARTs *\/$/;"	m	struct:_board_t
+uart_dev_count	include/xpt_internal_types.h	/^    int uart_dev_count; \/**< Usable uart Count *\/$/;"	m	struct:_board_t
+uart_dev_count	src/peripheralman/peripheralman.c	/^int uart_dev_count = 0;$/;"	v
+uart_dev_path_prefix	src/peripheralman/peripheralman.c	/^const char uart_dev_path_prefix[UART_PATH_SIZE] = "\/dev\/ttyS";$/;"	v
+uart_devices	src/peripheralman/peripheralman.c	/^char **uart_devices = NULL;$/;"	v
+uart_fd	lib/uart_linux.c	/^static int uart_fd[COM_MAX];$/;"	v	file:
+uart_fd	lib/uart_windows.c	/^HANDLE uart_fd[COM_MAX];$/;"	v
+uart_flush	lib/uart_linux.c	/^int uart_flush(int com)$/;"	f
+uart_flush	lib/uart_windows.c	/^int uart_flush(int com)$/;"	f
+uart_flush_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_flush_replace) (xpt_uart_context dev);$/;"	m	struct:__anon22
+uart_init_post	include/xpt_adv_func.h	/^    xpt_result_t (*uart_init_post) (xpt_uart_context uart);$/;"	m	struct:__anon22
+uart_init_pre	include/xpt_adv_func.h	/^    xpt_result_t (*uart_init_pre) (int index);$/;"	m	struct:__anon22
+uart_init_raw_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_init_raw_replace) (xpt_uart_context dev, const char* path);$/;"	m	struct:__anon22
+uart_open	lib/uart_linux.c	/^int uart_open(int com, int baudrate, int parity, int databits, int stopbits)$/;"	f
+uart_open	lib/uart_windows.c	/^int uart_open(int com, int baudrate, int parity, int databits, int stopbits)$/;"	f
+uart_read	lib/uart_linux.c	/^int uart_read(int com, unsigned char *data, int len)$/;"	f
+uart_read	lib/uart_windows.c	/^int uart_read(int com, unsigned char *data, int len)$/;"	f
+uart_read_replace	include/xpt_adv_func.h	/^    int (*uart_read_replace) (xpt_uart_context dev, char* buf, size_t len);$/;"	m	struct:__anon22
+uart_sendbreak_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_sendbreak_replace) (xpt_uart_context dev, int duration);$/;"	m	struct:__anon22
+uart_set_baudrate_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_set_baudrate_replace) (xpt_uart_context dev, unsigned int baud);$/;"	m	struct:__anon22
+uart_set_flowcontrol_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_set_flowcontrol_replace) (xpt_uart_context dev, xpt_boolean_t xonxoff, xpt_boolean_t rtscts);$/;"	m	struct:__anon22
+uart_set_mode_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_set_mode_replace) (xpt_uart_context dev, int bytesize, xpt_uart_parity_t parity, int stopbits);$/;"	m	struct:__anon22
+uart_set_non_blocking_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_set_non_blocking_replace) (xpt_uart_context dev, xpt_boolean_t nonblock);$/;"	m	struct:__anon22
+uart_set_timeout_replace	include/xpt_adv_func.h	/^    xpt_result_t (*uart_set_timeout_replace) (xpt_uart_context dev, int read, int write, int interchar);$/;"	m	struct:__anon22
+uart_write	lib/uart_linux.c	/^int uart_write(int com, unsigned char *data, int len)$/;"	f
+uart_write	lib/uart_windows.c	/^int uart_write(int com, unsigned char *data, int len)$/;"	f
+uart_write_replace	include/xpt_adv_func.h	/^    int (*uart_write_replace)(xpt_uart_context dev, const char* buf, size_t len);$/;"	m	struct:__anon22
+uarttool_find	tools/xpt-uart.c	/^uarttool_find(const char *str) {$/;"	f
+uarttool_read_and_print	tools/xpt-uart.c	/^uarttool_read_and_print(xpt_uart_context uart, double receive_timeout) {$/;"	f
+uarttool_usage	tools/xpt-uart.c	/^uarttool_usage(const char *name) {$/;"	f
+uint2speed	src/uart/uart.c	/^static speed_t uint2speed(unsigned int speed)$/;"	f	file:
+undefined	tools/xpt-uart.c	/^static const char *undefined = "<undefined>";$/;"	v	file:
+valid	include/xpt_internal_types.h	/^    xpt_boolean_t valid:1;     \/**< Is the pin valid at all *\/$/;"	m	struct:__anon3
+value	include/firmata/firmata.h	/^    uint32_t value;$/;"	m	struct:s_pin
+value	include/xpt_internal_types.h	/^    unsigned int value;  \/**< Raw GPIO value *\/$/;"	m	struct:__anon5
+value_bit	include/xpt_internal_types.h	/^    int value_bit; \/**< 10 bits by default. Can be increased if board *\/$/;"	m	struct:_aio
+value_fp	include/xpt_internal_types.h	/^    int value_fp; \/**< the file pointer to the value of the gpio *\/$/;"	m	struct:_gpio
+word	include/linux/i2c-dev.h	/^ __u16 word;$/;"	m	union:i2c_smbus_data
+word	src/i2c/i2c.c	/^    unsigned short word; \/\/\/< data short word$/;"	m	union:i2c_smbus_data_union	file:
+wren	test/spi_fram.c	/^	uint8_t wren;$/;"	m	struct:spi_fram_cmd	file:
+write	test/spi_fram.c	/^	uint8_t write;$/;"	m	struct:spi_fram_cmd	file:
+xpt_adc_raw_bits	src/xpt.c	/^xpt_adc_raw_bits()$/;"	f
+xpt_adc_supported_bits	src/xpt.c	/^xpt_adc_supported_bits()$/;"	f
+xpt_add_from_lockfile	src/xpt.c	/^xpt_add_from_lockfile(const char* ixpt_lock_file)$/;"	f
+xpt_add_subplatform	src/xpt.c	/^xpt_add_subplatform(xpt_platform_t subplatformtype, const char* dev)$/;"	f
+xpt_adv_func_t	include/xpt_adv_func.h	/^} xpt_adv_func_t;$/;"	t	typeref:struct:__anon22
+xpt_aio_close	src/aio/aio.c	/^xpt_aio_close(xpt_aio_context dev)$/;"	f
+xpt_aio_context	api/xpt/aio.h	/^typedef struct _aio* xpt_aio_context;$/;"	t	typeref:struct:_aio
+xpt_aio_dev_t	include/xpt_internal_types.h	/^} xpt_aio_dev_t;$/;"	t	typeref:struct:__anon14
+xpt_aio_get_bit	src/aio/aio.c	/^xpt_aio_get_bit(xpt_aio_context dev)$/;"	f
+xpt_aio_init	src/aio/aio.c	/^xpt_aio_init(unsigned int aio)$/;"	f
+xpt_aio_init_internal	src/aio/aio.c	/^xpt_aio_init_internal(xpt_adv_func_t* func_table, int aio, unsigned int channel)$/;"	f	file:
+xpt_aio_read	src/aio/aio.c	/^xpt_aio_read(xpt_aio_context dev)$/;"	f
+xpt_aio_read_float	src/aio/aio.c	/^xpt_aio_read_float(xpt_aio_context dev)$/;"	f
+xpt_aio_set_bit	src/aio/aio.c	/^xpt_aio_set_bit(xpt_aio_context dev, int bits)$/;"	f
+xpt_atoi	src/xpt.c	/^xpt_atoi(char* intStr, int* value)$/;"	f
+xpt_board_t	include/xpt_internal_types.h	/^} xpt_board_t;$/;"	t	typeref:struct:_board_t
+xpt_boolean_t	api/xpt/common.h	/^typedef unsigned int xpt_boolean_t;$/;"	t
+xpt_count_i2c_files	src/xpt.c	/^xpt_count_i2c_files(const char* path, const struct stat* sb, int flag, struct FTW* ftwb)$/;"	f	file:
+xpt_count_iio_devices	src/xpt.c	/^xpt_count_iio_devices(const char* path, const struct stat* sb, int flag, struct FTW* ftwb)$/;"	f	file:
+xpt_deinit	src/xpt.c	/^xpt_deinit()$/;"	f
+xpt_file_contains	src/xpt.c	/^xpt_file_contains(const char* filename, const char* content)$/;"	f
+xpt_file_contains_both	src/xpt.c	/^xpt_file_contains_both(const char* filename, const char* content, const char* content2)$/;"	f
+xpt_file_exist	src/xpt.c	/^xpt_file_exist(const char* filename)$/;"	f
+xpt_file_unglob	src/xpt.c	/^xpt_file_unglob(const char* filename)$/;"	f
+xpt_find_i2c_bus	src/xpt.c	/^xpt_find_i2c_bus(const char* devname, int startfrom)$/;"	f
+xpt_find_i2c_bus_pci	src/xpt.c	/^xpt_find_i2c_bus_pci(const char* pci_device, const char *pci_id, const char* adapter_name)$/;"	f
+xpt_firmata_context	api/xpt/firmata.h	/^typedef struct _firmata* xpt_firmata_context;$/;"	t	typeref:struct:_firmata
+xpt_get_aio_count	src/xpt.c	/^xpt_get_aio_count(void)$/;"	f
+xpt_get_default_i2c_bus	src/xpt.c	/^xpt_get_default_i2c_bus(uint8_t platform_offset)$/;"	f
+xpt_get_gpio_count	src/xpt.c	/^xpt_get_gpio_count(void)$/;"	f
+xpt_get_i2c_bus_count	src/xpt.c	/^xpt_get_i2c_bus_count()$/;"	f
+xpt_get_i2c_bus_id	src/xpt.c	/^xpt_get_i2c_bus_id(int i2c_bus)$/;"	f
+xpt_get_iio_device_count	src/xpt.c	/^xpt_get_iio_device_count()$/;"	f
+xpt_get_pin_count	src/xpt.c	/^xpt_get_pin_count()$/;"	f
+xpt_get_pin_name	src/xpt.c	/^xpt_get_pin_name(int pin)$/;"	f
+xpt_get_platform_adc_raw_bits	src/xpt.c	/^xpt_get_platform_adc_raw_bits(uint8_t platform_offset)$/;"	f
+xpt_get_platform_adc_supported_bits	src/xpt.c	/^xpt_get_platform_adc_supported_bits(int platform_offset)$/;"	f
+xpt_get_platform_combined_type	src/xpt.c	/^xpt_get_platform_combined_type()$/;"	f
+xpt_get_platform_name	src/xpt.c	/^xpt_get_platform_name()$/;"	f
+xpt_get_platform_pin_count	src/xpt.c	/^xpt_get_platform_pin_count(uint8_t platform_offset)$/;"	f
+xpt_get_platform_type	src/xpt.c	/^xpt_get_platform_type()$/;"	f
+xpt_get_platform_version	src/xpt.c	/^xpt_get_platform_version(int platform_offset)$/;"	f
+xpt_get_pwm_count	src/xpt.c	/^xpt_get_pwm_count(void)$/;"	f
+xpt_get_spi_count	src/xpt.c	/^xpt_get_spi_count(void)$/;"	f
+xpt_get_sub_platform_id	src/xpt.c	/^xpt_get_sub_platform_id(int pin_or_bus)$/;"	f
+xpt_get_sub_platform_index	src/xpt.c	/^xpt_get_sub_platform_index(int pin_or_bus)$/;"	f
+xpt_get_uart_count	src/xpt.c	/^xpt_get_uart_count(void)$/;"	f
+xpt_get_version	src/xpt.c	/^xpt_get_version()$/;"	f
+xpt_gpio_close	src/gpio/gpio.c	/^xpt_gpio_close(xpt_gpio_context dev)$/;"	f
+xpt_gpio_context	api/xpt/gpio.h	/^typedef struct _gpio* xpt_gpio_context;$/;"	t	typeref:struct:_gpio
+xpt_gpio_dir	src/gpio/gpio.c	/^xpt_gpio_dir(xpt_gpio_context dev, xpt_gpio_dir_t dir)$/;"	f
+xpt_gpio_dir_t	api/xpt/gpio.h	/^} xpt_gpio_dir_t;$/;"	t	typeref:enum:__anon41
+xpt_gpio_edge_mode	src/gpio/gpio.c	/^xpt_gpio_edge_mode(xpt_gpio_context dev, xpt_gpio_edge_t mode)$/;"	f
+xpt_gpio_edge_t	api/xpt/gpio.h	/^} xpt_gpio_edge_t;$/;"	t	typeref:enum:__anon42
+xpt_gpio_get_pin	src/gpio/gpio.c	/^xpt_gpio_get_pin(xpt_gpio_context dev)$/;"	f
+xpt_gpio_get_pin_raw	src/gpio/gpio.c	/^xpt_gpio_get_pin_raw(xpt_gpio_context dev)$/;"	f
+xpt_gpio_get_valfp	src/gpio/gpio.c	/^xpt_gpio_get_valfp(xpt_gpio_context dev)$/;"	f	file:
+xpt_gpio_init	src/gpio/gpio.c	/^xpt_gpio_init(int pin)$/;"	f
+xpt_gpio_init_internal	src/gpio/gpio.c	/^xpt_gpio_init_internal(xpt_adv_func_t* func_table, int pin)$/;"	f	file:
+xpt_gpio_init_raw	src/gpio/gpio.c	/^xpt_gpio_init_raw(int pin)$/;"	f
+xpt_gpio_input_mode	src/gpio/gpio.c	/^xpt_gpio_input_mode(xpt_gpio_context dev, xpt_gpio_input_mode_t mode)$/;"	f
+xpt_gpio_input_mode_t	api/xpt/gpio.h	/^} xpt_gpio_input_mode_t;$/;"	t	typeref:enum:__anon43
+xpt_gpio_interrupt_handler	src/gpio/gpio.c	/^xpt_gpio_interrupt_handler(void* arg)$/;"	f	file:
+xpt_gpio_isr	src/gpio/gpio.c	/^xpt_gpio_isr(xpt_gpio_context dev, xpt_gpio_edge_t mode, void (*fptr)(void*), void* args)$/;"	f
+xpt_gpio_isr_exit	src/gpio/gpio.c	/^xpt_gpio_isr_exit(xpt_gpio_context dev)$/;"	f
+xpt_gpio_lookup	src/xpt.c	/^xpt_gpio_lookup(const char* pin_name)$/;"	f
+xpt_gpio_mode	src/gpio/gpio.c	/^xpt_gpio_mode(xpt_gpio_context dev, xpt_gpio_mode_t mode)$/;"	f
+xpt_gpio_mode_t	api/xpt/gpio.h	/^} xpt_gpio_mode_t;$/;"	t	typeref:enum:__anon40
+xpt_gpio_out_driver_mode	src/gpio/gpio.c	/^xpt_gpio_out_driver_mode(xpt_gpio_context dev, xpt_gpio_out_driver_mode_t mode)$/;"	f
+xpt_gpio_out_driver_mode_t	api/xpt/gpio.h	/^} xpt_gpio_out_driver_mode_t;$/;"	t	typeref:enum:__anon44
+xpt_gpio_owner	src/gpio/gpio.c	/^xpt_gpio_owner(xpt_gpio_context dev, xpt_boolean_t own)$/;"	f
+xpt_gpio_read	src/gpio/gpio.c	/^xpt_gpio_read(xpt_gpio_context dev)$/;"	f
+xpt_gpio_read_dir	src/gpio/gpio.c	/^xpt_gpio_read_dir(xpt_gpio_context dev, xpt_gpio_dir_t *dir)$/;"	f
+xpt_gpio_unexport	src/gpio/gpio.c	/^xpt_gpio_unexport(xpt_gpio_context dev)$/;"	f	file:
+xpt_gpio_unexport_force	src/gpio/gpio.c	/^xpt_gpio_unexport_force(xpt_gpio_context dev)$/;"	f	file:
+xpt_gpio_use_mmaped	src/gpio/gpio.c	/^xpt_gpio_use_mmaped(xpt_gpio_context dev, xpt_boolean_t mmap_en)$/;"	f
+xpt_gpio_wait_interrupt	src/gpio/gpio.c	/^xpt_gpio_wait_interrupt(int fd$/;"	f	file:
+xpt_gpio_write	src/gpio/gpio.c	/^xpt_gpio_write(xpt_gpio_context dev, int value)$/;"	f
+xpt_grovepi_aio_init_internal_replace	src/grovepi/grovepi.c	/^xpt_grovepi_aio_init_internal_replace(xpt_aio_context dev, int aio)$/;"	f	file:
+xpt_grovepi_aio_read_replace	src/grovepi/grovepi.c	/^xpt_grovepi_aio_read_replace(xpt_aio_context dev)$/;"	f	file:
+xpt_grovepi_gpio_close_replace	src/grovepi/grovepi.c	/^xpt_grovepi_gpio_close_replace(xpt_gpio_context dev)$/;"	f	file:
+xpt_grovepi_gpio_dir_replace	src/grovepi/grovepi.c	/^xpt_grovepi_gpio_dir_replace(xpt_gpio_context dev, xpt_gpio_dir_t dir)$/;"	f	file:
+xpt_grovepi_gpio_init_internal_replace	src/grovepi/grovepi.c	/^xpt_grovepi_gpio_init_internal_replace(xpt_gpio_context dev, int pin)$/;"	f	file:
+xpt_grovepi_gpio_mode_replace	src/grovepi/grovepi.c	/^xpt_grovepi_gpio_mode_replace(xpt_gpio_context dev, xpt_gpio_mode_t mode)$/;"	f	file:
+xpt_grovepi_gpio_read_replace	src/grovepi/grovepi.c	/^xpt_grovepi_gpio_read_replace(xpt_gpio_context dev)$/;"	f	file:
+xpt_grovepi_gpio_write_replace	src/grovepi/grovepi.c	/^xpt_grovepi_gpio_write_replace(xpt_gpio_context dev, int write_value)$/;"	f	file:
+xpt_grovepi_platform	src/grovepi/grovepi.c	/^xpt_grovepi_platform(xpt_board_t* board, const int i2c_bus)$/;"	f
+xpt_grovepi_pwm_enable_replace	src/grovepi/grovepi.c	/^xpt_grovepi_pwm_enable_replace(xpt_pwm_context dev, int enable)$/;"	f	file:
+xpt_grovepi_pwm_init_internal_replace	src/grovepi/grovepi.c	/^xpt_grovepi_pwm_init_internal_replace(void* func_table, int pin)$/;"	f	file:
+xpt_grovepi_pwm_period_replace	src/grovepi/grovepi.c	/^xpt_grovepi_pwm_period_replace(xpt_pwm_context dev, int period)$/;"	f	file:
+xpt_grovepi_pwm_read_replace	src/grovepi/grovepi.c	/^xpt_grovepi_pwm_read_replace(xpt_pwm_context dev)$/;"	f	file:
+xpt_grovepi_pwm_write_replace	src/grovepi/grovepi.c	/^xpt_grovepi_pwm_write_replace(xpt_pwm_context dev, float percentage)$/;"	f	file:
+xpt_grovepi_read_internal	src/grovepi/grovepi.c	/^xpt_grovepi_read_internal(int function, int pin)$/;"	f	file:
+xpt_grovepi_write_internal	src/grovepi/grovepi.c	/^xpt_grovepi_write_internal(int function, int pin, int value)$/;"	f	file:
+xpt_has_sub_platform	src/xpt.c	/^xpt_has_sub_platform()$/;"	f
+xpt_i2c_address	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_address(xpt_i2c_context dev, uint8_t addr)$/;"	f
+xpt_i2c_bus_t	include/xpt_internal_types.h	/^} xpt_i2c_bus_t;$/;"	t	typeref:struct:__anon10
+xpt_i2c_context	api/xpt/i2c.h	/^typedef struct _i2c* xpt_i2c_context;$/;"	t	typeref:struct:_i2c
+xpt_i2c_frequency	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_frequency(xpt_i2c_context dev, xpt_i2c_mode_t mode)$/;"	f
+xpt_i2c_init	src/i2c/i2c.c	/^xpt_i2c_context xpt_i2c_init(int bus)$/;"	f
+xpt_i2c_init_internal	src/i2c/i2c.c	/^static xpt_i2c_context xpt_i2c_init_internal(xpt_adv_func_t* advance_func, unsigned int bus)$/;"	f	file:
+xpt_i2c_init_raw	src/i2c/i2c.c	/^xpt_i2c_context xpt_i2c_init_raw(unsigned int bus)$/;"	f
+xpt_i2c_lookup	src/xpt.c	/^xpt_i2c_lookup(const char* i2c_name)$/;"	f
+xpt_i2c_mode_t	api/xpt/types.h	/^} xpt_i2c_mode_t;$/;"	t	typeref:enum:__anon38
+xpt_i2c_read	src/i2c/i2c.c	/^int xpt_i2c_read(xpt_i2c_context dev, uint8_t* data, int length)$/;"	f
+xpt_i2c_read_byte	src/i2c/i2c.c	/^int xpt_i2c_read_byte(xpt_i2c_context dev)$/;"	f
+xpt_i2c_read_byte_data	src/i2c/i2c.c	/^int xpt_i2c_read_byte_data(xpt_i2c_context dev, uint8_t command)$/;"	f
+xpt_i2c_read_bytes_data	src/i2c/i2c.c	/^int xpt_i2c_read_bytes_data(xpt_i2c_context dev, uint8_t command, uint8_t* data, int length)$/;"	f
+xpt_i2c_read_word_data	src/i2c/i2c.c	/^int xpt_i2c_read_word_data(xpt_i2c_context dev, uint8_t command)$/;"	f
+xpt_i2c_smbus_access	src/i2c/i2c.c	/^int xpt_i2c_smbus_access(int fh, uint8_t read_write, uint8_t command, int size, i2c_smbus_data_t* data)$/;"	f
+xpt_i2c_stop	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_stop(xpt_i2c_context dev)$/;"	f
+xpt_i2c_write	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_write(xpt_i2c_context dev, const uint8_t* data, int length)$/;"	f
+xpt_i2c_write_byte	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_write_byte(xpt_i2c_context dev, const uint8_t data)$/;"	f
+xpt_i2c_write_byte_data	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_write_byte_data(xpt_i2c_context dev, const uint8_t data, const uint8_t command)$/;"	f
+xpt_i2c_write_word_data	src/i2c/i2c.c	/^xpt_result_t xpt_i2c_write_word_data(xpt_i2c_context dev, const uint16_t data, const uint8_t command)$/;"	f
+xpt_iio_channel	api/xpt/iio.h	/^} xpt_iio_channel;$/;"	t	typeref:struct:__anon30
+xpt_iio_close	src/iio/iio.c	/^xpt_result_t xpt_iio_close(xpt_iio_context dev)$/;"	f
+xpt_iio_context	api/xpt/iio.h	/^typedef struct _iio* xpt_iio_context;$/;"	t	typeref:struct:_iio
+xpt_iio_create_trigger	src/iio/iio.c	/^xpt_result_t xpt_iio_create_trigger(xpt_iio_context dev, const char* trigger)$/;"	f
+xpt_iio_detect	src/xpt.c	/^xpt_iio_detect()$/;"	f
+xpt_iio_event	api/xpt/iio.h	/^} xpt_iio_event;$/;"	t	typeref:struct:__anon31
+xpt_iio_event_extract_event	src/iio/iio.c	/^xpt_result_t xpt_iio_event_extract_event(struct iio_event_data* event,$/;"	f
+xpt_iio_event_handler	src/iio/iio.c	/^static void* xpt_iio_event_handler(void* arg)$/;"	f	file:
+xpt_iio_event_poll	src/iio/iio.c	/^xpt_result_t xpt_iio_event_poll(xpt_iio_context dev, struct iio_event_data* data)$/;"	f
+xpt_iio_event_poll_nonblock	src/iio/iio.c	/^static xpt_result_t xpt_iio_event_poll_nonblock(int fd, struct iio_event_data* data)$/;"	f	file:
+xpt_iio_event_setup_callback	src/iio/iio.c	/^xpt_result_t xpt_iio_event_setup_callback(xpt_iio_context dev, void (*fptr)(struct iio_event_data* data, void* args), void* args)$/;"	f
+xpt_iio_get_channel_count	src/iio/iio.c	/^int xpt_iio_get_channel_count(xpt_iio_context dev)$/;"	f
+xpt_iio_get_channel_data	src/iio/iio.c	/^xpt_result_t xpt_iio_get_channel_data(xpt_iio_context dev)$/;"	f
+xpt_iio_get_channels	src/iio/iio.c	/^xpt_iio_channel* xpt_iio_get_channels(xpt_iio_context dev)$/;"	f
+xpt_iio_get_device_name	src/iio/iio.c	/^const char* xpt_iio_get_device_name(xpt_iio_context dev)$/;"	f
+xpt_iio_get_device_num_by_name	src/iio/iio.c	/^int xpt_iio_get_device_num_by_name(const char* name)$/;"	f
+xpt_iio_get_event_data	src/iio/iio.c	/^xpt_result_t xpt_iio_get_event_data(xpt_iio_context dev)$/;"	f
+xpt_iio_get_mount_matrix	src/iio/iio.c	/^xpt_result_t xpt_iio_get_mount_matrix(xpt_iio_context dev, const char *sysfs_name, float mm[9])$/;"	f
+xpt_iio_info_t	include/xpt_internal_types.h	/^} xpt_iio_info_t;$/;"	t	typeref:struct:__anon15
+xpt_iio_init	src/iio/iio.c	/^xpt_iio_context xpt_iio_init(int device)$/;"	f
+xpt_iio_read_float	src/iio/iio.c	/^xpt_result_t xpt_iio_read_float(xpt_iio_context dev, const char* attr_name, float* data)$/;"	f
+xpt_iio_read_int	src/iio/iio.c	/^xpt_result_t xpt_iio_read_int(xpt_iio_context dev, const char* attr_name, int* data)$/;"	f
+xpt_iio_read_size	src/iio/iio.c	/^int xpt_iio_read_size(xpt_iio_context dev)$/;"	f
+xpt_iio_read_string	src/iio/iio.c	/^xpt_result_t xpt_iio_read_string(xpt_iio_context dev, const char* attr_name, char* data, int max_len)$/;"	f
+xpt_iio_trigger_buffer	src/iio/iio.c	/^xpt_result_t xpt_iio_trigger_buffer(xpt_iio_context dev, void (*fptr)(char*, void*), void* args)$/;"	f
+xpt_iio_trigger_handler	src/iio/iio.c	/^static void* xpt_iio_trigger_handler(void* arg)$/;"	f	file:
+xpt_iio_update_channels	src/iio/iio.c	/^xpt_result_t xpt_iio_update_channels(xpt_iio_context dev)$/;"	f
+xpt_iio_wait_event	src/iio/iio.c	/^static xpt_result_t xpt_iio_wait_event(int fd, char* data, int* read_size)$/;"	f	file:
+xpt_iio_write_float	src/iio/iio.c	/^xpt_result_t xpt_iio_write_float(xpt_iio_context dev, const char* attr_name, const float data)$/;"	f
+xpt_iio_write_int	src/iio/iio.c	/^xpt_result_t xpt_iio_write_int(xpt_iio_context dev, const char* attr_name, const int data)$/;"	f
+xpt_iio_write_string	src/iio/iio.c	/^xpt_result_t xpt_iio_write_string(xpt_iio_context dev, const char* attr_name, const char* data)$/;"	f
+xpt_init	src/xpt.c	/^xpt_init()$/;"	f
+xpt_init_io	src/xpt.c	/^xpt_init_io(const char* desc)$/;"	f
+xpt_init_io_helper	src/xpt.c	/^xpt_init_io_helper(char** str, int* value, const char* delim)$/;"	f
+xpt_init_json_platform	src/json/jsonplatform.c	/^xpt_init_json_platform(const char* platform_json)$/;"	f
+xpt_init_json_platform	src/xpt.c	/^xpt_init_json_platform(const char* desc)$/;"	f
+xpt_init_json_platform_aio	src/json/jsonplatform.c	/^xpt_init_json_platform_aio(json_object* jobj_aio, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_get_index	src/json/jsonplatform.c	/^xpt_init_json_platform_get_index(json_object* jobj, const char* io, const char* key, int index, int* pos, int upper)$/;"	f
+xpt_init_json_platform_get_pin	src/json/jsonplatform.c	/^xpt_init_json_platform_get_pin(json_object* jobj, const char* io, const char* key, int index, int* pin)$/;"	f
+xpt_init_json_platform_gpio	src/json/jsonplatform.c	/^xpt_init_json_platform_gpio(json_object* jobj_gpio, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_i2c	src/json/jsonplatform.c	/^xpt_init_json_platform_i2c(json_object* jobj_i2c, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_io	src/json/jsonplatform.c	/^xpt_init_json_platform_io(json_object* jobj_io, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_loop	src/json/jsonplatform.c	/^xpt_init_json_platform_loop(json_object* jobj_platform, const char* obj_key, xpt_board_t* board, init_plat_func_t func)$/;"	f
+xpt_init_json_platform_platform	src/json/jsonplatform.c	/^xpt_init_json_platform_platform(json_object* jobj_platform, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_pwm	src/json/jsonplatform.c	/^xpt_init_json_platform_pwm(json_object* jobj_pwm, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_size_check	src/json/jsonplatform.c	/^xpt_init_json_platform_size_check(json_object* jobj_platform,$/;"	f
+xpt_init_json_platform_spi	src/json/jsonplatform.c	/^xpt_init_json_platform_spi(json_object* jobj_spi, xpt_board_t* board, int index)$/;"	f
+xpt_init_json_platform_uart	src/json/jsonplatform.c	/^xpt_init_json_platform_uart(json_object* jobj_uart, xpt_board_t* board, int index)$/;"	f
+xpt_intel_edison_miniboard_t	api/xpt/types.h	/^} xpt_intel_edison_miniboard_t;$/;"	t	typeref:enum:__anon33
+xpt_intel_edison_t	api/xpt/types.h	/^} xpt_intel_edison_t;$/;"	t	typeref:enum:__anon34
+xpt_is_sub_platform_id	src/xpt.c	/^xpt_is_sub_platform_id(int pin_or_bus)$/;"	f
+xpt_lang_func_t	include/xpt_lang_func.h	/^} xpt_lang_func_t;$/;"	t	typeref:struct:__anon17
+xpt_led_clear_trigger	src/led/led.c	/^xpt_led_clear_trigger(xpt_led_context dev)$/;"	f
+xpt_led_close	src/led/led.c	/^xpt_led_close(xpt_led_context dev)$/;"	f
+xpt_led_context	api/xpt/led.h	/^typedef struct _led* xpt_led_context;$/;"	t	typeref:struct:_led
+xpt_led_get_brightfd	src/led/led.c	/^xpt_led_get_brightfd(xpt_led_context dev)$/;"	f	file:
+xpt_led_get_maxbrightfd	src/led/led.c	/^xpt_led_get_maxbrightfd(xpt_led_context dev)$/;"	f	file:
+xpt_led_get_trigfd	src/led/led.c	/^xpt_led_get_trigfd(xpt_led_context dev)$/;"	f	file:
+xpt_led_init	src/led/led.c	/^xpt_led_init(const char* led)$/;"	f
+xpt_led_init_internal	src/led/led.c	/^xpt_led_init_internal(const char* led)$/;"	f	file:
+xpt_led_read_brightness	src/led/led.c	/^xpt_led_read_brightness(xpt_led_context dev)$/;"	f
+xpt_led_read_max_brightness	src/led/led.c	/^xpt_led_read_max_brightness(xpt_led_context dev)$/;"	f
+xpt_led_set_brightness	src/led/led.c	/^xpt_led_set_brightness(xpt_led_context dev, int value)$/;"	f
+xpt_led_set_trigger	src/led/led.c	/^xpt_led_set_trigger(xpt_led_context dev, const char* trigger)$/;"	f
+xpt_link_targets	src/xpt.c	/^xpt_link_targets(const char* filename, const char* targetname)$/;"	f
+xpt_mips_platform	src/mips/mips.c	/^xpt_mips_platform()$/;"	f
+xpt_mmap_pin_t	include/xpt_internal_types.h	/^} xpt_mmap_pin_t;$/;"	t	typeref:struct:__anon8
+xpt_mtk_linkit	src/mips/mediatek.c	/^xpt_mtk_linkit()$/;"	f
+xpt_mtk_omega2	src/mips/mediatek.c	/^xpt_mtk_omega2()$/;"	f
+xpt_mux_t	include/xpt_internal_types.h	/^} xpt_mux_t;$/;"	t	typeref:struct:__anon5
+xpt_peripheralman_plat_init	src/peripheralman/peripheralman.c	/^xpt_peripheralman_plat_init()$/;"	f
+xpt_peripheralman_platform	src/peripheralman/peripheralman.c	/^xpt_peripheralman_platform()$/;"	f
+xpt_pin_cap_complex_t	include/xpt_internal_types.h	/^} xpt_pin_cap_complex_t;$/;"	t	typeref:struct:__anon6
+xpt_pin_mode_test	src/xpt.c	/^xpt_pin_mode_test(int pin, xpt_pinmodes_t mode)$/;"	f
+xpt_pin_t	include/xpt_internal_types.h	/^} xpt_pin_t;$/;"	t	typeref:struct:__anon7
+xpt_pincapabilities_t	include/xpt_internal_types.h	/^} xpt_pincapabilities_t;$/;"	t	typeref:struct:__anon3
+xpt_pininfo_t	include/xpt_internal_types.h	/^} xpt_pininfo_t;$/;"	t	typeref:struct:__anon9
+xpt_pinmodes_t	api/xpt/types.h	/^} xpt_pinmodes_t;$/;"	t	typeref:enum:__anon37
+xpt_platform_t	api/xpt/types.h	/^} xpt_platform_t;$/;"	t	typeref:enum:__anon32
+xpt_pman_gpio_close_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_close_replace(xpt_gpio_context dev)$/;"	f	file:
+xpt_pman_gpio_dir_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_dir_replace(xpt_gpio_context dev, xpt_gpio_dir_t dir)$/;"	f	file:
+xpt_pman_gpio_edge_mode_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_edge_mode_replace(xpt_gpio_context dev, xpt_gpio_edge_t mode)$/;"	f	file:
+xpt_pman_gpio_init_internal_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_init_internal_replace(xpt_gpio_context dev, int pin)$/;"	f	file:
+xpt_pman_gpio_interrupt_handler	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_interrupt_handler(void* arg)$/;"	f	file:
+xpt_pman_gpio_isr_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_isr_replace(xpt_gpio_context dev, xpt_gpio_edge_t edge, void (*fptr)(void*), void* args)$/;"	f	file:
+xpt_pman_gpio_mode_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_mode_replace(xpt_gpio_context dev, xpt_gpio_mode_t mode)$/;"	f	file:
+xpt_pman_gpio_read_dir_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_read_dir_replace(xpt_gpio_context dev, xpt_gpio_dir_t *dir)$/;"	f	file:
+xpt_pman_gpio_read_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_read_replace(xpt_gpio_context dev)$/;"	f	file:
+xpt_pman_gpio_wait_interrupt	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_wait_interrupt(int fd, int control_fd)$/;"	f	file:
+xpt_pman_gpio_write_replace	src/peripheralman/peripheralman.c	/^xpt_pman_gpio_write_replace(xpt_gpio_context dev, int val)$/;"	f	file:
+xpt_pman_i2c_address_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_address_replace(xpt_i2c_context dev, uint8_t addr)$/;"	f	file:
+xpt_pman_i2c_init_bus_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_init_bus_replace(xpt_i2c_context dev)$/;"	f	file:
+xpt_pman_i2c_read_byte_data_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_read_byte_data_replace(xpt_i2c_context dev, uint8_t command)$/;"	f	file:
+xpt_pman_i2c_read_byte_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_read_byte_replace(xpt_i2c_context dev)$/;"	f	file:
+xpt_pman_i2c_read_bytes_data_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_read_bytes_data_replace(xpt_i2c_context dev, uint8_t command, uint8_t* data, int length)$/;"	f	file:
+xpt_pman_i2c_read_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_read_replace(xpt_i2c_context dev, uint8_t* data, int length)$/;"	f	file:
+xpt_pman_i2c_read_word_data_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_read_word_data_replace(xpt_i2c_context dev, uint8_t command)$/;"	f	file:
+xpt_pman_i2c_set_frequency_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_set_frequency_replace(xpt_i2c_context dev, xpt_i2c_mode_t mode)$/;"	f	file:
+xpt_pman_i2c_stop_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_stop_replace(xpt_i2c_context dev)$/;"	f	file:
+xpt_pman_i2c_write_byte_data_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_write_byte_data_replace(xpt_i2c_context dev, const uint8_t data, const uint8_t command)$/;"	f	file:
+xpt_pman_i2c_write_byte_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_write_byte_replace(xpt_i2c_context dev, const uint8_t data)$/;"	f	file:
+xpt_pman_i2c_write_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_write_replace(xpt_i2c_context dev, const uint8_t* data, int length)$/;"	f	file:
+xpt_pman_i2c_write_word_data_replace	src/peripheralman/peripheralman.c	/^xpt_pman_i2c_write_word_data_replace(xpt_i2c_context dev, const uint16_t data, const uint8_t command)$/;"	f	file:
+xpt_pman_pwm_enable_replace	src/peripheralman/peripheralman.c	/^xpt_pman_pwm_enable_replace(xpt_pwm_context dev, int enable)$/;"	f	file:
+xpt_pman_pwm_init_raw_replace	src/peripheralman/peripheralman.c	/^xpt_pman_pwm_init_raw_replace(xpt_pwm_context dev, int pin)$/;"	f	file:
+xpt_pman_pwm_period_replace	src/peripheralman/peripheralman.c	/^xpt_pman_pwm_period_replace(xpt_pwm_context dev, int period)$/;"	f	file:
+xpt_pman_pwm_read_replace	src/peripheralman/peripheralman.c	/^xpt_pman_pwm_read_replace(xpt_pwm_context dev)$/;"	f	file:
+xpt_pman_pwm_write_replace	src/peripheralman/peripheralman.c	/^xpt_pman_pwm_write_replace(xpt_pwm_context dev, float duty)$/;"	f	file:
+xpt_pman_spi_bit_per_word_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_bit_per_word_replace(xpt_spi_context dev, unsigned int bits)$/;"	f	file:
+xpt_pman_spi_frequency_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_frequency_replace(xpt_spi_context dev, int hz)$/;"	f	file:
+xpt_pman_spi_init_raw_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_init_raw_replace(xpt_spi_context dev, unsigned int bus, unsigned int cs)$/;"	f	file:
+xpt_pman_spi_lsbmode_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_lsbmode_replace(xpt_spi_context dev, xpt_boolean_t lsb)$/;"	f	file:
+xpt_pman_spi_mode_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_mode_replace(xpt_spi_context dev, xpt_spi_mode_t mode)$/;"	f	file:
+xpt_pman_spi_stop_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_stop_replace(xpt_spi_context dev)$/;"	f	file:
+xpt_pman_spi_transfer_buf_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_transfer_buf_replace(xpt_spi_context dev, uint8_t* data, uint8_t* rxbuf, int length)$/;"	f	file:
+xpt_pman_spi_transfer_buf_word_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_transfer_buf_word_replace(xpt_spi_context dev, uint16_t* data, uint16_t* rxbuf, int length)$/;"	f	file:
+xpt_pman_spi_write_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_write_replace(xpt_spi_context dev, uint8_t data)$/;"	f	file:
+xpt_pman_spi_write_word_replace	src/peripheralman/peripheralman.c	/^xpt_pman_spi_write_word_replace(xpt_spi_context dev, uint16_t data)$/;"	f	file:
+xpt_pman_uart_data_available_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_data_available_replace(xpt_uart_context dev, unsigned int millis)$/;"	f	file:
+xpt_pman_uart_flush_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_flush_replace(xpt_uart_context dev)$/;"	f	file:
+xpt_pman_uart_init_post	src/peripheralman/peripheralman.c	/^xpt_pman_uart_init_post(xpt_uart_context dev)$/;"	f	file:
+xpt_pman_uart_init_raw_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_init_raw_replace(xpt_uart_context dev, const char* path)$/;"	f	file:
+xpt_pman_uart_read_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_read_replace(xpt_uart_context dev, char* buf, size_t len)$/;"	f	file:
+xpt_pman_uart_sendbreak_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_sendbreak_replace(xpt_uart_context dev)$/;"	f	file:
+xpt_pman_uart_set_baudrate_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_set_baudrate_replace(xpt_uart_context dev, unsigned int baud)$/;"	f	file:
+xpt_pman_uart_set_flowcontrol_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_set_flowcontrol_replace(xpt_uart_context dev, xpt_boolean_t xonxoff, xpt_boolean_t rtscts)$/;"	f	file:
+xpt_pman_uart_set_mode_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_set_mode_replace(xpt_uart_context dev, int bytesize, xpt_uart_parity_t parity, int stopbits)$/;"	f	file:
+xpt_pman_uart_set_non_blocking_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_set_non_blocking_replace(xpt_uart_context dev, xpt_boolean_t nonblock)$/;"	f	file:
+xpt_pman_uart_set_timeout_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_set_timeout_replace(xpt_uart_context dev, int read, int write, int interchar)$/;"	f	file:
+xpt_pman_uart_write_replace	src/peripheralman/peripheralman.c	/^xpt_pman_uart_write_replace(xpt_uart_context dev, const char* buf, size_t len)$/;"	f	file:
+xpt_pwm_close	src/pwm/pwm.c	/^xpt_pwm_close(xpt_pwm_context dev)$/;"	f
+xpt_pwm_context	api/xpt/pwm.h	/^typedef struct _pwm* xpt_pwm_context;$/;"	t	typeref:struct:_pwm
+xpt_pwm_dev_t	include/xpt_internal_types.h	/^} xpt_pwm_dev_t;$/;"	t	typeref:struct:__anon13
+xpt_pwm_enable	src/pwm/pwm.c	/^xpt_pwm_enable(xpt_pwm_context dev, int enable)$/;"	f
+xpt_pwm_get_max_period	src/pwm/pwm.c	/^xpt_pwm_get_max_period(xpt_pwm_context dev)$/;"	f
+xpt_pwm_get_min_period	src/pwm/pwm.c	/^xpt_pwm_get_min_period(xpt_pwm_context dev)$/;"	f
+xpt_pwm_init	src/pwm/pwm.c	/^xpt_pwm_init(int pin)$/;"	f
+xpt_pwm_init_internal	src/pwm/pwm.c	/^xpt_pwm_init_internal(xpt_adv_func_t* func_table, int chipin, int pin)$/;"	f	file:
+xpt_pwm_init_raw	src/pwm/pwm.c	/^xpt_pwm_init_raw(int chipin, int pin)$/;"	f
+xpt_pwm_lookup	src/xpt.c	/^xpt_pwm_lookup(const char* pwm_name)$/;"	f
+xpt_pwm_owner	src/pwm/pwm.c	/^xpt_pwm_owner(xpt_pwm_context dev, xpt_boolean_t owner_new)$/;"	f
+xpt_pwm_period	src/pwm/pwm.c	/^xpt_pwm_period(xpt_pwm_context dev, float seconds)$/;"	f
+xpt_pwm_period_ms	src/pwm/pwm.c	/^xpt_pwm_period_ms(xpt_pwm_context dev, int ms)$/;"	f
+xpt_pwm_period_us	src/pwm/pwm.c	/^xpt_pwm_period_us(xpt_pwm_context dev, int us)$/;"	f
+xpt_pwm_pulsewidth	src/pwm/pwm.c	/^xpt_pwm_pulsewidth(xpt_pwm_context dev, float seconds)$/;"	f
+xpt_pwm_pulsewidth_ms	src/pwm/pwm.c	/^xpt_pwm_pulsewidth_ms(xpt_pwm_context dev, int ms)$/;"	f
+xpt_pwm_pulsewidth_us	src/pwm/pwm.c	/^xpt_pwm_pulsewidth_us(xpt_pwm_context dev, int us)$/;"	f
+xpt_pwm_read	src/pwm/pwm.c	/^xpt_pwm_read(xpt_pwm_context dev)$/;"	f
+xpt_pwm_read_duty	src/pwm/pwm.c	/^xpt_pwm_read_duty(xpt_pwm_context dev)$/;"	f	file:
+xpt_pwm_read_period	src/pwm/pwm.c	/^xpt_pwm_read_period(xpt_pwm_context dev)$/;"	f	file:
+xpt_pwm_setup_duty_fp	src/pwm/pwm.c	/^xpt_pwm_setup_duty_fp(xpt_pwm_context dev)$/;"	f	file:
+xpt_pwm_unexport	src/pwm/pwm.c	/^xpt_pwm_unexport(xpt_pwm_context dev)$/;"	f
+xpt_pwm_unexport_force	src/pwm/pwm.c	/^xpt_pwm_unexport_force(xpt_pwm_context dev)$/;"	f
+xpt_pwm_write	src/pwm/pwm.c	/^xpt_pwm_write(xpt_pwm_context dev, float percentage)$/;"	f
+xpt_pwm_write_duty	src/pwm/pwm.c	/^xpt_pwm_write_duty(xpt_pwm_context dev, int duty)$/;"	f	file:
+xpt_pwm_write_period	src/pwm/pwm.c	/^xpt_pwm_write_period(xpt_pwm_context dev, int period)$/;"	f	file:
+xpt_raspberry_wiring_t	api/xpt/types.h	/^} xpt_raspberry_wiring_t;$/;"	t	typeref:enum:__anon35
+xpt_remove_subplatform	src/xpt.c	/^xpt_remove_subplatform(xpt_platform_t subplatformtype)$/;"	f
+xpt_result_print	src/xpt.c	/^xpt_result_print(xpt_result_t result)$/;"	f
+xpt_result_t	api/xpt/types.h	/^} xpt_result_t;$/;"	t	typeref:enum:__anon36
+xpt_set_log_level	src/xpt.c	/^xpt_set_log_level(int level)$/;"	f
+xpt_set_priority	src/xpt.c	/^xpt_set_priority(const int priority)$/;"	f
+xpt_setup_mux_mapped	src/xpt.c	/^xpt_setup_mux_mapped(xpt_pin_t meta)$/;"	f
+xpt_spi_bit_per_word	src/spi/spi.c	/^xpt_result_t xpt_spi_bit_per_word(xpt_spi_context dev, unsigned int bits)$/;"	f
+xpt_spi_bus_t	include/xpt_internal_types.h	/^} xpt_spi_bus_t;$/;"	t	typeref:struct:__anon11
+xpt_spi_context	api/xpt/spi.h	/^typedef struct _spi* xpt_spi_context;$/;"	t	typeref:struct:_spi
+xpt_spi_frequency	src/spi/spi.c	/^xpt_result_t xpt_spi_frequency(xpt_spi_context dev, int hz)$/;"	f
+xpt_spi_init	src/spi/spi.c	/^xpt_spi_context xpt_spi_init(int bus)$/;"	f
+xpt_spi_init_internal	src/spi/spi.c	/^static xpt_spi_context xpt_spi_init_internal(xpt_adv_func_t* func_table)$/;"	f	file:
+xpt_spi_init_raw	src/spi/spi.c	/^xpt_spi_context xpt_spi_init_raw(unsigned int bus, unsigned int cs)$/;"	f
+xpt_spi_lookup	src/xpt.c	/^xpt_spi_lookup(const char* spi_name)$/;"	f
+xpt_spi_lsbmode	src/spi/spi.c	/^xpt_result_t xpt_spi_lsbmode(xpt_spi_context dev, xpt_boolean_t lsb)$/;"	f
+xpt_spi_mode	src/spi/spi.c	/^xpt_result_t xpt_spi_mode(xpt_spi_context dev, xpt_spi_mode_t mode)$/;"	f
+xpt_spi_mode_t	api/xpt/spi.h	/^} xpt_spi_mode_t;$/;"	t	typeref:enum:__anon45
+xpt_spi_stop	src/spi/spi.c	/^xpt_result_t xpt_spi_stop(xpt_spi_context dev)$/;"	f
+xpt_spi_transfer_buf	src/spi/spi.c	/^xpt_result_t xpt_spi_transfer_buf(xpt_spi_context dev, uint8_t* data, uint8_t* rxbuf, int length)$/;"	f
+xpt_spi_transfer_buf_word	src/spi/spi.c	/^xpt_result_t xpt_spi_transfer_buf_word(xpt_spi_context dev, uint16_t* data, uint16_t* rxbuf, int length)$/;"	f
+xpt_spi_write	src/spi/spi.c	/^int xpt_spi_write(xpt_spi_context dev, uint8_t data)$/;"	f
+xpt_spi_write_buf	src/spi/spi.c	/^uint8_t* xpt_spi_write_buf(xpt_spi_context dev, uint8_t* data, int length)$/;"	f
+xpt_spi_write_buf_word	src/spi/spi.c	/^uint16_t* xpt_spi_write_buf_word(xpt_spi_context dev, uint16_t* data, int length)$/;"	f
+xpt_spi_write_word	src/spi/spi.c	/^int xpt_spi_write_word(xpt_spi_context dev, uint16_t data)$/;"	f
+xpt_to_upper	src/xpt.c	/^xpt_to_upper(char* s)$/;"	f
+xpt_uart_context	api/xpt/uart.h	/^typedef struct _uart* xpt_uart_context;$/;"	t	typeref:struct:_uart
+xpt_uart_data_available	src/uart/uart.c	/^xpt_boolean_t xpt_uart_data_available(xpt_uart_context dev, unsigned int millis)$/;"	f
+xpt_uart_dev_t	include/xpt_internal_types.h	/^} xpt_uart_dev_t;$/;"	t	typeref:struct:__anon12
+xpt_uart_flush	src/uart/uart.c	/^xpt_result_t xpt_uart_flush(xpt_uart_context dev)$/;"	f
+xpt_uart_get_dev_path	src/uart/uart.c	/^const char* xpt_uart_get_dev_path(xpt_uart_context dev)$/;"	f
+xpt_uart_init	src/uart/uart.c	/^xpt_uart_context xpt_uart_init(int index)$/;"	f
+xpt_uart_init_internal	src/uart/uart.c	/^static xpt_uart_context xpt_uart_init_internal(xpt_adv_func_t* func_table)$/;"	f	file:
+xpt_uart_init_raw	src/uart/uart.c	/^xpt_uart_context xpt_uart_init_raw(const char* path)$/;"	f
+xpt_uart_lookup	src/xpt.c	/^xpt_uart_lookup(const char* uart_name)$/;"	f
+xpt_uart_ow_bit	src/uart_ow/uart_ow.c	/^int xpt_uart_ow_bit(xpt_uart_ow_context dev, uint8_t bit)$/;"	f
+xpt_uart_ow_command	src/uart_ow/uart_ow.c	/^xpt_result_t xpt_uart_ow_command(xpt_uart_ow_context dev, uint8_t command, uint8_t* id)$/;"	f
+xpt_uart_ow_context	api/xpt/uart_ow.h	/^} *xpt_uart_ow_context;$/;"	t	typeref:struct:_xpt_uart_ow
+xpt_uart_ow_crc8	src/uart_ow/uart_ow.c	/^uint8_t xpt_uart_ow_crc8(uint8_t* buffer, uint16_t length)$/;"	f
+xpt_uart_ow_get_dev_path	src/uart_ow/uart_ow.c	/^const char* xpt_uart_ow_get_dev_path(xpt_uart_ow_context dev)$/;"	f
+xpt_uart_ow_init	src/uart_ow/uart_ow.c	/^xpt_uart_ow_context xpt_uart_ow_init(int index)$/;"	f
+xpt_uart_ow_init_raw	src/uart_ow/uart_ow.c	/^xpt_uart_ow_context xpt_uart_ow_init_raw(const char* path)$/;"	f
+xpt_uart_ow_read_byte	src/uart_ow/uart_ow.c	/^int xpt_uart_ow_read_byte(xpt_uart_ow_context dev)$/;"	f
+xpt_uart_ow_reset	src/uart_ow/uart_ow.c	/^xpt_result_t xpt_uart_ow_reset(xpt_uart_ow_context dev)$/;"	f
+xpt_uart_ow_rom_cmd_t	api/xpt/uart_ow.h	/^} xpt_uart_ow_rom_cmd_t;$/;"	t	typeref:enum:__anon29
+xpt_uart_ow_rom_search	src/uart_ow/uart_ow.c	/^xpt_result_t xpt_uart_ow_rom_search(xpt_uart_ow_context dev, xpt_boolean_t start, uint8_t* id)$/;"	f
+xpt_uart_ow_stop	src/uart_ow/uart_ow.c	/^xpt_result_t xpt_uart_ow_stop(xpt_uart_ow_context dev)$/;"	f
+xpt_uart_ow_write_byte	src/uart_ow/uart_ow.c	/^int xpt_uart_ow_write_byte(xpt_uart_ow_context dev, uint8_t byte)$/;"	f
+xpt_uart_parity_t	api/xpt/types.h	/^} xpt_uart_parity_t;$/;"	t	typeref:enum:__anon39
+xpt_uart_read	src/uart/uart.c	/^int xpt_uart_read(xpt_uart_context dev, char* buf, size_t len)$/;"	f
+xpt_uart_sendbreak	src/uart/uart.c	/^xpt_result_t xpt_uart_sendbreak(xpt_uart_context dev, int duration)$/;"	f
+xpt_uart_set_baudrate	src/uart/uart.c	/^xpt_result_t xpt_uart_set_baudrate(xpt_uart_context dev, unsigned int baud)$/;"	f
+xpt_uart_set_flowcontrol	src/uart/uart.c	/^xpt_result_t xpt_uart_set_flowcontrol(xpt_uart_context dev, xpt_boolean_t xonxoff, xpt_boolean_t rtscts)$/;"	f
+xpt_uart_set_mode	src/uart/uart.c	/^xpt_result_t xpt_uart_set_mode(xpt_uart_context dev, int bytesize, xpt_uart_parity_t parity, int stopbits)$/;"	f
+xpt_uart_set_non_blocking	src/uart/uart.c	/^xpt_result_t xpt_uart_set_non_blocking(xpt_uart_context dev, xpt_boolean_t nonblock)$/;"	f
+xpt_uart_set_timeout	src/uart/uart.c	/^xpt_result_t xpt_uart_set_timeout(xpt_uart_context dev, int read, int write, int interchar)$/;"	f
+xpt_uart_settings	src/uart/uart.c	/^xpt_result_t xpt_uart_settings(int index, const char **devpath, const char **name, int* baudrate, int* databits, int* stopbits, xpt_uart_parity_t* parity, unsigned int* ctsrts, unsigned int* xonxoff) {$/;"	f
+xpt_uart_stop	src/uart/uart.c	/^xpt_result_t xpt_uart_stop(xpt_uart_context dev)$/;"	f
+xpt_uart_write	src/uart/uart.c	/^int xpt_uart_write(xpt_uart_context dev, const char* buf, size_t len)$/;"	f
